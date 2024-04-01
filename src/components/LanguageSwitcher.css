@@ -1,0 +1,50 @@
+.language-switcher {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.dark .language-switcher{
+
+}
+.light .language-switcher{
+    background-color: #fff;
+}
+
+.language-switcher select {
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: inherit;
+    padding: 5px 30px 5px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.language-switcher::after {
+    content: '\25BC';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: inherit;
+    pointer-events: none;
+}
+
+/* Adjusts dropdown background and color for dark theme */
+.dark .language-switcher select {
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Hover effect adjustments */
+.language-switcher select:hover {
+    /*background-color: rgba(223, 85, 0, 0.9); !* Soft hover effect, adjust opacity as needed *!*/
+}
