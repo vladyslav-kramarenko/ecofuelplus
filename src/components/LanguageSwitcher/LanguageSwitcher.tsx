@@ -1,7 +1,7 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import "./LanguageSwitcher.css";
-import {useTheme} from "./ThemeContext";
+import {useTheme} from "../ThemeContext";
 
 const LanguageSwitcher = () => {
     const {i18n} = useTranslation();
