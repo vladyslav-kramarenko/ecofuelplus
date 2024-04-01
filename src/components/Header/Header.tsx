@@ -1,9 +1,9 @@
 import React from 'react';
-import {useTheme} from "./ThemeContext";
-import logo from "../images/ecofuelplus.png";
+import {useTheme} from "../ThemeContext";
+import logo from "../../images/ecofuelplus.png";
 // import logoDark from "../images/ecofuelplus-dark.png";
 // import logoLight from "../images/ecofuelplus-light.png";
-import LanguageSwitcher from "./LanguageSwitcher";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import "./Header.css";
 
 interface HeaderProps {
