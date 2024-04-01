@@ -1,0 +1,99 @@
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0;
+    width: 100%;
+}
+
+.contact-details {
+    background: var(--background-light);
+    color: var(--text-color-light);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    text-align: center;
+    order: 1;
+}
+
+.contact-icon{
+    justify-content: center;
+    display: flex;
+    margin: 0;
+}
+
+.contact-text{
+    width: 100%;
+}
+
+.contact-icon img {
+    max-width: 200px;
+    order: 2;
+    display: block;
+    margin: 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    order: 3;
+}
+
+/* Adjustments for light and dark themes */
+.light-theme .contact-details {
+    background: #fff;
+    color: #000;
+}
+
+.dark-theme .contact-details {
+    background: #333;
+    color: #fff;
+}
+.contact-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: row;
+    background: var(--background-light);
+    color: var(--text-color-light);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Desktop layout adjustments */
+@media (min-width: 768px) {
+
+    .contact-details, .contact-icon {
+        width: 50%;
+    }
+    .map-container {
+        width: 100%;
+        order: 2;
+    }
+}
+
+/* Mobile layout adjustments */
+@media (max-width: 767px) {
+    .contact-icon img {
+        display: none;
+    }
+    .contact-details, .map-container {
+        width: 100%;
+    }
+}
