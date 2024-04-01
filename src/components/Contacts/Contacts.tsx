@@ -2,29 +2,29 @@ import React from 'react';
 import certificate from "../../images/certificate.jpg";
 import "./Contacts.css";
 import img from "../../images/ecofuel+_logo_small.jpg";
+import {useTranslation} from "react-i18next";
 
 interface ContactsSectionProps {
     id: string;
 }
 
 const ContactsSection: React.FC<ContactsSectionProps> = ({id}) => {
-
+    const {t} = useTranslation();
     return (
         <div id={id} className="contacts-section section">
             <h1>Contacts</h1>
             <div className="contacts-container">
                 <div className="contact-card">
                     <div className={"contact-text"}>
-                        <p>ТОВ ЕКОФЬЮЕЛ ПЛЮС</p>
-                        <p>LLC ECOFUEL PLUS</p>
-                        <p>Волинська область, Луцький район, с.Шепель</p>
-                        <p>Код ЄДРПОУ 45093069</p>
-                        <p>Телефон: <a href={"tel:+380683688623"}>0683688623</a></p>
-                        <a href={certificate} target="_blank" rel="noopener noreferrer">Pellets Certificate of
-                            Quality</a>
+                        <p>{t('CompanyFullName')}</p>
+                        <p>{t('CompanyName')}</p>
+                        <p>{t('Location')}</p>
+                        <p>{t('CompanyCode')}: 45093069</p>
+                        <p>{t('Phone')}: <a href={"tel:+380683688623"}>0683688623</a></p>
+                        <a href={certificate} target="_blank" rel="noopener noreferrer">{t('QualityCertificate')}</a>
                     </div>
                     <div className={"contact-icon"}>
-                        <img src={img}/>
+                        <img src={img} alt={"ecofuelplus logo"}/>
                     </div>
                 </div>
                 <div className="contact-card map-container">
