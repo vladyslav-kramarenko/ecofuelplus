@@ -1,5 +1,4 @@
-import React, {useState, useEffect } from 'react';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import React, {useState, useEffect} from 'react';
 import HomeSection from './components/Home';
 import AboutSection from './components/About';
 import ContactsSection from './components/Contacts';
@@ -10,13 +9,10 @@ import Footer from "./components/Footer";
 import CallbackButton from "./components/CallbackButton/CallbackButton";
 import './App.css';
 
-
-
 function App() {
     const [activeSection, setActiveSection] = useState('');
 
     const {theme} = useTheme();
-
 
     useEffect(() => {
         const handleScroll = () => {
@@ -38,31 +34,19 @@ function App() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-
     return (
-        // <Router>
-            <div className={`App ${theme}`}>
-                <Header activeSection={activeSection}/>
-                <main>
-                    <HomeSection id="home"/>
-                    <AboutSection id="about-us"/>
-                    <ContactsSection id="contacts"/>
-                    <AdvantagesSection id="advantages"/>
-                    <CallbackButton />
-                </main>
-                {/*<Routes>*/}
-                {/*    <Route path="/" element={<Home/>}/>*/}
-                {/*    <Route path="/about-us" element={<About/>}/>*/}
-                {/*    <Route path="/contact" element={<Contacts/>}/>*/}
-                {/*    <Route path="/advantages" element={<PelletAdvantages/>}/>*/}
-                {/*</Routes>*/}
-                <Footer/>
-            </div>
-        // </Router>
+        <div className={`App ${theme}`}>
+            <Header activeSection={activeSection}/>
+            <main>
+                <HomeSection id="home"/>
+                <AboutSection id="about-us"/>
+                <AdvantagesSection id="advantages"/>
+                <ContactsSection id="contacts"/>
+                <CallbackButton/>
+            </main>
+
+            <Footer/>
+        </div>
     );
-
-
 }
-
-
 export default App;

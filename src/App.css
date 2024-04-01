@@ -8,6 +8,7 @@ html, body {
     width: 100%;
     min-height: 100%;
     height: auto;
+    font-family: Arial, sans-serif;
 }
 
 #root, .App {
@@ -30,13 +31,20 @@ footer {
     text-align: center;
 }
 
+:root {
+    --background-light: #fff;
+    --background-dark: #121212;
+    --text-color-light: #000;
+    --text-color-dark: #fff;
+    --button-hover-color: #ffa500;
+}
 
-.light {
+.light, .light-theme {
     background-color: #F5F5F5;
     color: #333;
 }
 
-.dark {
+.dark, .dark-theme {
     background-color: #121212;
     color: #E0E0E0;
 }

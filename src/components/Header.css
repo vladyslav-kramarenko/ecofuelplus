@@ -1,0 +1,105 @@
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+body.light header {
+    background-color: var(--background-light); /* White background for light theme */
+}
+
+body.dark header {
+    background-color: var(--background-dark); /* Dark background for dark theme */
+}
+
+.logo-container img {
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    gap: 10px; /* Space between navigation items */
+}
+button{
+    border: none;
+}
+
+button, .language-switcher select {
+    background-color: transparent;
+    color: inherit;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover{
+    color: #df5500;
+}
+
+.theme-switcher label:hover{
+    background-color:#df5500;
+    cursor: pointer;
+}
+
+/* Theme-specific styles */
+body.light {
+    background-color: #fff;
+    color: #000;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #fff;
+}
+
+.theme-switcher{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5px;
+}
+.theme-switcher label {
+     position: relative;
+     display: inline-block;
+     /*width: 60px;*/
+     /*height: 30px;*/
+        width: 40px;
+        height: 20px;
+     background-color: #ccc;
+     border-radius: 15px;
+     transition: background-color 0.3s;
+ }
+
+.theme-switcher label::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    transition: transform 0.25s;
+}
+
+.theme-switcher input[type="checkbox"]:checked + label::after {
+    transform: translateX(19px);
+    background-color: #4D4D4D;
+}
+
+.theme-switcher input[type="checkbox"] {
+    display: none;
+}
