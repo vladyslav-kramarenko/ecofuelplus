@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import HomeSection from './components/Home';
 import AboutSection from './components/About';
-import ContactsSection from './components/Contacts';
+import ContactsSection from './components/Contacts/Contacts';
 import AdvantagesSection from './components/PelletAdvantages';
 import {useTheme} from "./components/ThemeContext";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
 import CallbackButton from "./components/CallbackButton/CallbackButton";
 import './App.css';
