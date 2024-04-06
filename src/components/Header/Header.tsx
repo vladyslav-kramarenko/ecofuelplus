@@ -5,12 +5,14 @@ import logo from "../../images/ecofuelplus.png";
 // import logoLight from "../images/ecofuelplus-light.png";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import "./Header.css";
+import {useTranslation} from "react-i18next";
 
 interface HeaderProps {
     activeSection: string;
 }
 
 const Header: React.FC<HeaderProps> = ({activeSection}) => {
+    const {t} = useTranslation();
     const {theme, toggleTheme} = useTheme();
 
     const scrollToSection = (sectionId: string) => {
@@ -28,10 +30,11 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
                 <img src={logo} alt="EcoFuel+ Logo" className="header-logo"/>
             </div>
             <nav>
-                <button onClick={() => scrollToSection('home')}>Home</button>
-                <button onClick={() => scrollToSection('about-us')}>About Us</button>
-                <button onClick={() => scrollToSection('advantages')}>Pellet Advantages</button>
-                <button onClick={() => scrollToSection('contacts')}>Contacts</button>
+                <button onClick={() => scrollToSection('home')}>{t('menu.home')}</button>
+                <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
+                <button onClick={() => scrollToSection('comparison')}>{t('menu.fuelcomparison')}</button>
+                {/*<button onClick={() => scrollToSection('advantages')}>Pellet Advantages</button>*/}
+                <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
             </nav>
             <div className="theme-switcher">
                 <input
