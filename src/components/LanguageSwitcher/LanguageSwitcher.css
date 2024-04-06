@@ -26,6 +26,7 @@
     padding: 5px 30px 5px 10px;
     cursor: pointer;
     outline: none;
+    transition: all 0.2s ease-in-out;
 }
 
 .language-switcher::after {
@@ -38,13 +39,12 @@
     pointer-events: none;
 }
 
-/* Adjusts dropdown background and color for dark theme */
 .dark .language-switcher select {
-    background-color: #121212;
+    background-color: black;
     color: #fff;
 }
 
 /* Hover effect adjustments */
 .language-switcher select:hover {
-    /*background-color: rgba(223, 85, 0, 0.9); !* Soft hover effect, adjust opacity as needed *!*/
+    color: rgba(223, 85, 0, 0.9);
 }
