@@ -17,7 +17,7 @@ body.light header {
 }
 
 body.dark header {
-    background-color: var(--background-dark); /* Dark background for dark theme */
+    background-color: black;
 }
 
 .logo-container img {
@@ -28,11 +28,18 @@ body.dark header {
 
 /* Navigation styles */
 nav {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    gap: 10px; /* Space between navigation items */
+    gap: 10px;
 }
-button{
+
+button {
     border: none;
+}
+
+.language-switcher {
+    margin-right: auto;
 }
 
 button, .language-switcher select {
@@ -44,12 +51,12 @@ button, .language-switcher select {
     transition: background-color 0.2s, color 0.2s;
 }
 
-button:hover{
+button:hover {
     color: #df5500;
 }
 
-.theme-switcher label:hover{
-    background-color:#df5500;
+.theme-switcher label:hover {
+    background-color: #df5500;
     cursor: pointer;
 }
 
@@ -64,24 +71,23 @@ body.dark {
     color: #fff;
 }
 
-.theme-switcher{
+.theme-switcher {
     align-items: center;
     align-content: center;
     justify-content: center;
     justify-items: center;
     margin-top: 5px;
 }
+
 .theme-switcher label {
-     position: relative;
-     display: inline-block;
-     /*width: 60px;*/
-     /*height: 30px;*/
-        width: 40px;
-        height: 20px;
-     background-color: #ccc;
-     border-radius: 15px;
-     transition: background-color 0.3s;
- }
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
 
 .theme-switcher label::after {
     content: '';
@@ -97,7 +103,7 @@ body.dark {
 
 .theme-switcher input[type="checkbox"]:checked + label::after {
     transform: translateX(19px);
-    background-color: #4D4D4D;
+    background-color: black;
 }
 
 .theme-switcher input[type="checkbox"] {
