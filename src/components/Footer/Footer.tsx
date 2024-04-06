@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import {useTranslation} from 'react-i18next';
 import {useTheme} from '../ThemeContext';
-import {FaLinkedin, FaTelegram} from 'react-icons/fa';
+import {FaFacebook, FaLinkedin, FaTelegram, FaViber} from 'react-icons/fa';
 import {FaLocationDot} from "react-icons/fa6";
 import logo from '../../images/ecofuel+_logo_small.jpg';
 
@@ -36,8 +36,12 @@ const Footer: React.FC = () => {
                     <div className="footer-social">
                         <a href="https://www.linkedin.com/company/ecofuelplus" target="_blank"
                            rel="noopener noreferrer"><FaLinkedin/></a>
+                        <a href="https://www.facebook.com/people/Ecofuel-Plus/61558222918532/" target="_blank"
+                           rel="noopener noreferrer"><FaFacebook/></a>
                         <a href="https://t.me/EcoFuelplus" target="_blank"
                            rel="noopener noreferrer"><FaTelegram/></a>
+                        <a href="viber://chat/?number=%2B380683688623" target="_blank"
+                           rel="noopener noreferrer"><FaViber/></a>
                         <a href="https://maps.app.goo.gl/PFVW53j1uWbrrLGC6" target="_blank"
                            rel="noopener noreferrer"><FaLocationDot/></a>
                     </div>
