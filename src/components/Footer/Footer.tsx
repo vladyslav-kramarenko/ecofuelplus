@@ -3,8 +3,8 @@ import './Footer.css';
 import {useTranslation} from 'react-i18next';
 import {useTheme} from '../ThemeContext';
 import {FaLinkedin, FaTelegram} from 'react-icons/fa';
+import {FaLocationDot} from "react-icons/fa6";
 import logo from '../../images/ecofuel+_logo_small.jpg';
-import {FaLocationDot} from "react-icons/fa6"; // Update the path to your logo
 
 const Footer: React.FC = () => {
     const {t} = useTranslation();
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
             </div>
             <div className="footer-bottom">
                 <p>© 2024 {t('copyright')}</p>
-                <p>{t('Made by Vladyslav Kramarenko')}</p>
+                <p>{'Made by'} <a href={"https://kramarenko.info/"}>{"Vladyslav Kramarenko"}</a></p>
             </div>
         </footer>
     );
