@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from 'react';
-import HomeSection from './components/Home';
-import AboutSection from './components/About';
+import HomeSection from './components/Home/Home';
+import AboutSection from './components/About/About';
 import ContactsSection from './components/Contacts/Contacts';
 import AdvantagesSection from './components/PelletAdvantages';
 import {useTheme} from "./components/ThemeContext";
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import CallbackButton from "./components/CallbackButton/CallbackButton";
+import FuelComparisonSection from "./components/FuelComparison/FuelComparison";
 import './App.css';
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
             <main>
                 <HomeSection id="home"/>
                 <AboutSection id="about-us"/>
-                <AdvantagesSection id="advantages"/>
+                <FuelComparisonSection id="comparison"/>
+                {/*<AdvantagesSection id="advantages"/>*/}
                 <ContactsSection id="contacts"/>
                 <CallbackButton/>
             </main>
