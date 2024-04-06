@@ -1,0 +1,26 @@
+.fuel-comparison-section {
+    padding: 20px;
+}
+
+.fuel-comparison-section h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.light thead {
+    background-color: #e0e0e0;
+}
