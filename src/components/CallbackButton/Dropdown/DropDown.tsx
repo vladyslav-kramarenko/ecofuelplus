@@ -11,7 +11,7 @@ const Dropdown: React.FC = () => {
             </a>
             <a className="select-item" target="_blank"
                rel="nofollow noreferrer"
-               href="viber://contact?number=+380683688623">
+               href="viber://chat/?number=%2B380683688623">
                 <i className="viber-icon"><span></span></i>
                 Viber
             </a>
