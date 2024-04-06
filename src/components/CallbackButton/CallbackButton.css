@@ -40,13 +40,16 @@
 
 .callback-button > .times-icon{
     z-index: 2;
-    /*transition: 150ms;*/
-    transition: background 0.3s ease, box-shadow 0.3s ease; /* Specify properties to transition */
-
+    transition: 150ms;
 }
 .callback-button > .times-icon.open{
-    background: #00a6d9;
+    background: var(--button-hover-color);
     box-shadow: inset 0 0 7px rgba(0,0,0,.25);
+}
+
+.callback-button > .times-icon.open:hover{
+    -webkit-filter: brightness(98%);
+    box-shadow: inset 0 0 12px rgba(0,0,0,.25);
 }
 
 .callback-button-embed {
