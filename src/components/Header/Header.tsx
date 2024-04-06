@@ -61,10 +61,22 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
             {/* Mobile Version Menu */}
             {isMobileMenuOpen && (
                 <div className="mobile-nav">
-                    <button onClick={() => scrollToSection('home')}>{t('menu.home')}</button>
-                    <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
-                    <button onClick={() => scrollToSection('comparison')}>{t('menu.fuelcomparison')}</button>
-                    <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
+                    <button onClick={() => {
+                        scrollToSection('home');
+                        setIsMobileMenuOpen(false);
+                    }}>{t('menu.home')}</button>
+                    <button onClick={() => {
+                        scrollToSection('about-us');
+                        setIsMobileMenuOpen(false);
+                    }}>{t('menu.about')}</button>
+                    <button onClick={() => {
+                        scrollToSection('comparison');
+                        setIsMobileMenuOpen(false);
+                    }}>{t('menu.fuelcomparison')}</button>
+                    <button onClick={() => {
+                        scrollToSection('contacts');
+                        setIsMobileMenuOpen(false);
+                    }}>{t('menu.contacts')}</button>
                 </div>
             )}
 
