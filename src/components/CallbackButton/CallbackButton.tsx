@@ -2,16 +2,18 @@ import React, {useState} from 'react';
 import "./CallbackButton.css";
 import "./Tooltip.css"
 import Dropdown from "./Dropdown/DropDown";
+import {useTranslation} from "react-i18next";
 
 const CallbackButton: React.FC = () => {
 
+    const {t} = useTranslation();
     const [isDropdownVisible, setIsDropdownVisible] = useState(false);
 
     return (
         <div
             className="callback-button callback-button-embed"
             data-balloon-pos="left"
-            data-balloon="Contact us"
+            data-balloon={t("contactUsPopup")}
             onClick={() => setIsDropdownVisible(!isDropdownVisible)}
         >
             {!isDropdownVisible && (
