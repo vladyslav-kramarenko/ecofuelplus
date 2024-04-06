@@ -54,7 +54,7 @@ footer {
 }
 
 .section {
-    height: 100vh;
+    min-height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
