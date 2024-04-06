@@ -1,5 +1,6 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
+import "./Home.css";
 
 interface HomeSectionProps {
     id: string;
@@ -7,9 +8,8 @@ interface HomeSectionProps {
 
 const HomeSection: React.FC<HomeSectionProps> = ({id}) => {
     const {t} = useTranslation();
-    // Your component implementation, using the 'id' prop as needed
     return (
-        <div id={id} className="section">
+        <div id={id} className="home-section section">
             <h1>{t('Welcome')}</h1>
         </div>
     );
