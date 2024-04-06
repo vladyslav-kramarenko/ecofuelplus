@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {useTheme} from "../ThemeContext";
 import logo from "../../images/ecofuelplus.png";
 // import logoDark from "../images/ecofuelplus-dark.png";
@@ -6,7 +6,7 @@ import logo from "../../images/ecofuelplus.png";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import "./Header.css";
 import {useTranslation} from "react-i18next";
-
+import './MobileMenu.css';
 interface HeaderProps {
     activeSection: string;
 }
@@ -14,7 +14,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({activeSection}) => {
     const {t} = useTranslation();
     const {theme, toggleTheme} = useTheme();
-
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const scrollToSection = (sectionId: string) => {
         const element = document.getElementById(sectionId);
         if (element) {
@@ -29,23 +29,45 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
             <div className="logo-container">
                 <img src={logo} alt="EcoFuel+ Logo" className="header-logo"/>
             </div>
-            <nav>
+
+            {/* PC Version Menu */}
+            <nav className="desktop-nav">
                 <button onClick={() => scrollToSection('home')}>{t('menu.home')}</button>
                 <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
                 <button onClick={() => scrollToSection('comparison')}>{t('menu.fuelcomparison')}</button>
                 {/*<button onClick={() => scrollToSection('advantages')}>Pellet Advantages</button>*/}
                 <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
             </nav>
-            <div className="theme-switcher">
-                <input
-                    id="theme-toggle"
-                    type="checkbox"
-                    checked={theme === 'dark'}
-                    onChange={toggleTheme}
-                />
-                <label htmlFor="theme-toggle"></label>
+
+            <div className="header-controls">
+                <div className="theme-switcher">
+                    <input
+                        id="theme-toggle"
+                        type="checkbox"
+                        checked={theme === 'dark'}
+                        onChange={toggleTheme}
+                    />
+                    <label htmlFor="theme-toggle"></label>
+                </div>
+
+                <LanguageSwitcher/>
             </div>
-            <LanguageSwitcher/>
+
+            {/* Mobile Menu Icon */}
+            <div className="burger-menu" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+                <span></span><span></span><span></span>
+            </div>
+
+            {/* Mobile Version Menu */}
+            {isMobileMenuOpen && (
+                <div className="mobile-nav">
+                    <button onClick={() => scrollToSection('home')}>{t('menu.home')}</button>
+                    <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
+                    <button onClick={() => scrollToSection('comparison')}>{t('menu.fuelcomparison')}</button>
+                    <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
+                </div>
+            )}
+
         </header>
     );
 };
