@@ -4,9 +4,9 @@ interface AdvantagesSectionProps {
 }
 const AdvantagesSection: React.FC<AdvantagesSectionProps> = ({id}) => {
     return (
-        <div  id={id} className="section">
+        <section  id={id} className="section">
             <h1>PelletAdvantages</h1>
-        </div>
+        </section>
     );
 };
 

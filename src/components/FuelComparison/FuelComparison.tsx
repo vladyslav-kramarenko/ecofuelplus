@@ -10,7 +10,7 @@ const FuelComparisonSection: React.FC<FuelComparisonSectionProps> = ({id}) => {
     const {t} = useTranslation();
 
     return (
-        <div id={id} className={"fuel-comparison-section section ${theme}"}>
+        <section id={id} className={"fuel-comparison-section section ${theme}"}>
             <h1>{t("Features of wood pellets and their comparison with other types of fuel")}</h1>
             <p>{t("You can buy pellets in Kyiv and other cities of Ukraine, which are produced in the form of granules, made from different types of wood. Biofuel is produced from the waste of woodworking production, so the price per ton of pellets is quite low.")}</p>
 
@@ -46,7 +46,7 @@ const FuelComparisonSection: React.FC<FuelComparisonSectionProps> = ({id}) => {
                 </tr>
                 </tbody>
             </table>
-        </div>
+        </section>
     );
 };
 

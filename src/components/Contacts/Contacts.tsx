@@ -11,7 +11,7 @@ interface ContactsSectionProps {
 const ContactsSection: React.FC<ContactsSectionProps> = ({id}) => {
     const {t} = useTranslation();
     return (
-        <div id={id} className="contacts-section section">
+        <section id={id} className="contacts-section section">
             <h1>{t('menu.contacts')}</h1>
             <div className="contacts-container">
                 <div className="contact-card">
@@ -41,7 +41,7 @@ const ContactsSection: React.FC<ContactsSectionProps> = ({id}) => {
                     ></iframe>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
