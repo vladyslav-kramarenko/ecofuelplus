@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 import CallbackButton from "./components/CallbackButton/CallbackButton";
 import FuelComparisonSection from "./components/FuelComparison/FuelComparison";
 import './App.css';
+import ServicesSection from "./components/Services/Services";
 
 function App() {
     const [activeSection, setActiveSection] = useState('');
@@ -43,6 +44,7 @@ function App() {
                 <AboutSection id="about-us"/>
                 <FuelComparisonSection id="comparison"/>
                 {/*<AdvantagesSection id="advantages"/>*/}
+                <ServicesSection id="services"/>
                 <ContactsSection id="contacts"/>
                 <CallbackButton/>
             </main>
@@ -51,4 +53,5 @@ function App() {
         </div>
     );
 }
+
 export default App;

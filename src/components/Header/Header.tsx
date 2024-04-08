@@ -7,6 +7,7 @@ import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import "./Header.css";
 import {useTranslation} from "react-i18next";
 import './MobileMenu.css';
+
 interface HeaderProps {
     activeSection: string;
 }
@@ -36,12 +37,13 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
                 <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
                 <button onClick={() => scrollToSection('comparison')}>{t('menu.fuelcomparison')}</button>
                 {/*<button onClick={() => scrollToSection('advantages')}>Pellet Advantages</button>*/}
+                <button onClick={() => scrollToSection('services')}>{t('menu.services')}</button>
                 <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
             </nav>
 
             <div className="header-controls">
                 <div className="theme-switcher">
-                    <input
+                <input
                         id="theme-toggle"
                         type="checkbox"
                         checked={theme === 'dark'}
@@ -73,6 +75,10 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
                         scrollToSection('comparison');
                         setIsMobileMenuOpen(false);
                     }}>{t('menu.fuelcomparison')}</button>
+                    <button onClick={() => {
+                        scrollToSection('services');
+                        setIsMobileMenuOpen(false);
+                    }}>{t('menu.services')}</button>
                     <button onClick={() => {
                         scrollToSection('contacts');
                         setIsMobileMenuOpen(false);
