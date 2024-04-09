@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                     <button onClick={() => scrollToSection('home')}>{t('menu.home')}</button>
                     {/*<button onClick={() => scrollToSection('advantages')}>{t('Pellet Advantages')}</button>*/}
                     <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
-                    <button onClick={() => scrollToSection('comparison')}>{t('menu.fuelcomparison')}</button>
+                    <button onClick={() => scrollToSection('comparison')}>{t('menu.pellets')}</button>
                     <button onClick={() => scrollToSection('services')}>{t('menu.services')}</button>
                     <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
                 </nav>
