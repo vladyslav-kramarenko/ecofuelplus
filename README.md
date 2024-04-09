@@ -1,6 +1,6 @@
 # EcoFuel Plus Website
 
-Welcome to the repository for the EcoFuel Plus SPA website, an engaging platform designed to showcase and provide information about our eco-friendly wood pellet production and services. We aim to offer clean energy solutions with our high-quality wood pellets, contributing to a sustainable future.
+Welcome to the repository for the EcoFuel Plus SPA website, an engaging platform designed to showcase and provide information about our eco-friendly wood pellet production and services. 
 
 ## About EcoFuel Plus
 
