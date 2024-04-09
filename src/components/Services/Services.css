@@ -31,18 +31,13 @@
 
 .service-title {
     margin: 20px;
-    width: 100%;
 }
 
 .service-description {
     padding: 0 20px;
-    /*padding: 0 20px 20px;*/
     text-align: left;
 }
 
-/*.service-description p{*/
-/*    padding: 0;*/
-/*}*/
 
 .service-cta {
     background-color: #007bff;
