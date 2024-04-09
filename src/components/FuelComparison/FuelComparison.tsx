@@ -11,41 +11,51 @@ const FuelComparisonSection: React.FC<FuelComparisonSectionProps> = ({id}) => {
 
     return (
         <section id={id} className={"fuel-comparison-section section ${theme}"}>
-            <h1>{t("Features of wood pellets and their comparison with other types of fuel")}</h1>
-            <p>{t("You can buy pellets in Kyiv and other cities of Ukraine, which are produced in the form of granules, made from different types of wood. Biofuel is produced from the waste of woodworking production, so the price per ton of pellets is quite low.")}</p>
-
-            {/* Table for comparison */}
-            <table>
-                <thead>
-                <tr>
-                    <th>{t("Fuel Type")}</th>
-                    <th>{t("Ash Content")}</th>
-                    <th>{t("Calorific Value")}</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>{t("Coal")}</td>
-                    <td>{t("on average 15%")}</td>
-                    <td>{t("6.4-7.5 kW*h (6800-8350 kcal/kg)")}</td>
-                </tr>
-                <tr>
-                    <td>{t("Wood")}</td>
-                    <td>{t("8%")}</td>
-                    <td>{t("Leafy wood – 4.2-4.5 kW*h/kg, pine – 4.3 kW*h/kg")}</td>
-                </tr>
-                <tr>
-                    <td>{t("Briquettes")}</td>
-                    <td>{t("0.5-1.5%")}</td>
-                    <td>{t("4.9 kW*h")}</td>
-                </tr>
-                <tr>
-                    <td>{t("Pellets")}</td>
-                    <td>{t("0.5-1%")}</td>
-                    <td>{t("4.7-5.4 kW*h")}</td>
-                </tr>
-                </tbody>
-            </table>
+            <h1>{t("menu.pellets")}</h1>
+            <p>{t("pellets.about")}</p>
+            <div className="table-responsive">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>{t("pellets.parameter")}</th>
+                        <th>{t("pellets.wood")}</th>
+                        <th>{t("pellets.woodPellet")}</th>
+                        <th>{t("pellets.coal")}</th>
+                        <th>{t("pellets.gas")}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>{t("pellets.moisture")}</td>
+                        <td>{"30-40"}</td>
+                        <td>{"7-10"}</td>
+                        <td>{"10-15"}</td>
+                        <td>{"-"}</td>
+                    </tr>
+                    <tr>
+                        <td>{t("pellets.density")}</td>
+                        <td>{"200-250"}</td>
+                        <td>{"550-750"}</td>
+                        <td>{"800-850"}</td>
+                        <td>{"-"}</td>
+                    </tr>
+                    <tr>
+                        <td>{t("pellets.calorificMjKg")}</td>
+                        <td>{"9-12"}</td>
+                        <td>{"15-16"}</td>
+                        <td>{"23-28"}</td>
+                        <td>{"35-48"}</td>
+                    </tr>
+                    <tr>
+                        <td>{t("pellets.calorificKWH")}</td>
+                        <td>{"4.2-4.5"}</td>
+                        <td>{"4.7-5.4"}</td>
+                        <td>{"6.4-7.5"}</td>
+                        <td>{"9.6-13.3"}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     );
 };

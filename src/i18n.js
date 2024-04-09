@@ -11,6 +11,7 @@ const resources = {
                 'fuelcomparison': "Fuel Comparison",
                 'contacts': "Contacts",
                 'services': "Services",
+                'pellets': "Pellets"
             },
             services: {
                 "storage": "Storage - Summer Prices in Winter.",
@@ -23,6 +24,19 @@ const resources = {
                 "customPacking": "Custom Packing",
                 "customPackagingDescription1": "",
                 "customPackagingDescription2": "",
+            },
+            pellets: {
+                "about": "In general, Biofuel is produced from the waste of woodworking production, so the price per ton of Biofuel is quite low. Pellets are produced in the form of granules, made from different types of wood.",
+                "parameter": "Parameter",
+                "wood": "Wood",
+                "woodPellet": "Wood Pellet",
+                "coal": "Coal",
+                "gas": "Gas",
+                "moisture": "Moisture Content, %",
+                "density": "Bulk Density, kg/m3",
+                "calorificMjKg": "Calorific Value, MJ/kg",
+                "calorificKWH": "Calorific Value, kW*h",
+
             },
             "contactUsPopup": "Contact Us",
             "Welcome": "Welcome to Ecofuel Plus",
@@ -56,6 +70,7 @@ const resources = {
                 'fuelcomparison': "Порівняння палива",
                 'contacts': "Контакти",
                 'services': "Послуги",
+                'pellets': "Пелети"
             },
             services: {
                 "storage": "Зберігання - взимку за літніми цінами.",
@@ -68,6 +83,19 @@ const resources = {
                 "customPacking": "Custom Packing",
                 "customPackagingDescription1": "",
                 "customPackagingDescription2": "",
+            },
+            pellets: {
+                "about": "Загалом біопаливо виробляється з відходів деревообробного виробництва, тому ціна за тонну біопалива досить низька. Пелети випускаються у вигляді гранул, виготовляються з різних порід деревини.",
+                "parameter": "Parameter",
+                "wood": "Дерево",
+                "woodPellet": "Деревна пелета",
+                "coal": "Вугілля",
+                "gas": "Газ",
+                "moisture": "Вологість, %",
+                "density": "Насипна щільність, кг/м3",
+                "calorificMjKg": "Калорійність, МДж/кг",
+                "calorificKWH": "Калорійність, кВТ*г",
+
             },
             "contactUsPopup": "Зв'яжіться з Нами",
             "Welcome": "Ласкаво просимо до Екофьюел Плюс",
@@ -100,6 +128,7 @@ const resources = {
                 'fuelcomparison': "Сравнение топлива",
                 'contacts': "Контакты",
                 'services': "Услуги",
+                'pellets': "Пеллеты"
             },
             services: {
                 "storage": "Хранение – зимой по летним ценам.",
@@ -112,6 +141,19 @@ const resources = {
                 "customPacking": "Custom Packing",
                 "customPackagingDescription1": "",
                 "customPackagingDescription2": "",
+            },
+            pellets: {
+                "about": "Биотопливо производится из отходов деревообрабатывающего производства, поэтому цена за тонну Биотоплива достаточно низкая. Пеллеты производятся в виде гранул, изготовленных из разных пород древесины.",
+                "parameter": "Параметр",
+                "wood": "Дерево",
+                "woodPellet": "Древесная Пеллета",
+                "coal": "Уголь",
+                "gas": "Газ",
+                "moisture": "Влажность, %",
+                "density": "Насыпная плотность, кг/м3",
+                "calorificMjKg": "Калорийность, МДж/кг",
+                "calorificKWH": "Calorific Value, кВт*ч",
+
             },
             "contactUsPopup": "Свяжитесь с Нами",
             "Welcome": "Добро пожаловать в Экофьюэл Плюс",
@@ -136,7 +178,6 @@ const resources = {
             "copyright": "ЭКОФЬЮЭЛ ПЛЮС. Все права защищены."
         }
     }
-    // Add more languages here...
 };
 
 i18n
@@ -144,7 +185,7 @@ i18n
     .use(LanguageDetector) // Detects user language
     .init({
         resources,
-        fallbackLng: "ua", // Use English if detected lang is not available
+        fallbackLng: "ua", //  default language
         interpolation: {
             escapeValue: false // React already safes from XSS
         }

@@ -1,26 +1,41 @@
 .fuel-comparison-section {
-    padding: 20px;
+}
+
+.table-responsive {
+    padding: 0;
+    overflow-x: auto;
+    width: 100%;
 }
 
 .fuel-comparison-section h1 {
     text-align: center;
 }
 
-table {
+.table-responsive table {
+    padding: 0;
+    margin: 0;
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
 }
 
-table, th, td {
+.table-responsive th,
+.table-responsive td {
+    padding: 10px;
+    text-align: left;
     border: 1px solid #ccc;
 }
 
-th, td {
-    padding: 10px;
-    text-align: left;
+@media (max-width: 768px) {
+    .table-responsive th,
+    .table-responsive td {
+        font-size: small;
+    }
 }
 
-.light thead {
-    background-color: #e0e0e0;
+@media (max-width: 450px) {
+    .table-responsive th,
+    .table-responsive td {
+        font-size: x-small;
+    }
+
 }
