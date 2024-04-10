@@ -14,8 +14,9 @@ const LanguageSwitcher = () => {
     return (
         <div className={"language-switcher "+theme}>
             <select onChange={changeLanguage} defaultValue={i18n.language}>
-                <option value="en">EN</option>
                 <option value="ua">UA</option>
+                <option value="en">EN</option>
+                <option value="pl">PL</option>
                 <option value="ru">RU</option>
             </select>
         </div>

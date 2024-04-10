@@ -35,7 +35,7 @@ const resources = {
                 "moisture": "Moisture Content, %",
                 "density": "Bulk Density, kg/m3",
                 "calorificMjKg": "Calorific Value, MJ/kg",
-                "calorificKWH": "Calorific Value, kW*h",
+                "calorificKWH": "Calorific Value, kWh",
 
             },
             "contactUsPopup": "Contact Us",
@@ -77,7 +77,7 @@ const resources = {
                 "storageDescription1": "Кожен, хто використовує тверде паливо в Україні, стикається з відомими проблемами: сезонне коливання цін, нестача простору для зберігання, ризик погіршення якості пелет через вологу, а також витрати часу та зусиль на організацію зберігання. На жаль, додатковою актуальною загрозою є ризик втрати пелет через воєнні дії, включаючи попадання ракет або снарядів, пожежі та інші непередбачувані обставини.",
                 "storageDescription2": "Але у нас є рішення! Наша послуга зберігання пелет не тільки вирішує зазначені вище питання, дозволяючи вам економити до 1000 грн на тонні, звільняти простір та захищати паливо від вологи, але й мінімізує ризик втрати пелет через воєнні дії. Ми приділяємо максимум уваги безпеці нашого зберігання, включаючи заходи щодо захисту від пожеж та інших надзвичайних ситуацій, що дозволяє нам гарантувати збереження вашого палива в найбезпечніших умовах.",
                 "storageDescription3": "Зв'яжіться з нами, щоб дізнатися більше про нашу послугу та як ми можемо допомогти вам зробити використання твердого палива в Україні не тільки вигіднішим і зручнішим, але й безпечнішим.",
-                "delivery": "Delivery",
+                "delivery": "Доставка",
                 "deliveryDescription1": "",
                 "deliveryDescription2": "",
                 "customPacking": "Custom Packing",
@@ -120,6 +120,62 @@ const resources = {
             "copyright": "ЕКОФЬЮЕЛ ПЛЮС. Усі права захищені."
         }
     },
+    pl: {
+        translation: {
+            menu: {
+                'home': "Dom",
+                'about': "O nas",
+                'fuelcomparison': "Porównanie paliwa",
+                'contacts': "Kontakty",
+                'services': "Usługi",
+                'pellets': "Pelety"
+            },
+            services: {
+                "storage": "Przechowywanie - zimą po cenach letnich.",
+                "storageDescription1": "Każdy, kto korzysta z paliw stałych na Ukrainie, boryka się z dobrze znanymi problemami: sezonowymi wahaniami cen, brakiem miejsca do przechowywania, ryzykiem pogorszenia jakości pelletu na skutek wilgoci, a także czasem i wysiłkiem wymaganym do zorganizowania przechowywania.",
+                "storageDescription2": "Ale mamy rozwiązanie! Nasza usługa magazynowania pelletu nie tylko rozwiązuje powyższe problemy, pozwalając zaoszczędzić nawet 1000 UAH na tonie, zwolnić miejsce i chronić paliwo przed wilgocią. Przywiązujemy maksymalną wagę do bezpieczeństwa naszego przechowywania, uwzględniając środki ochrony przed pożarami i innymi sytuacjami awaryjnymi, co gwarantuje, że Państwa paliwo będzie przechowywane w najbezpieczniejszych warunkach.",
+                "storageDescription3": "Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach i o tym, jak możemy pomóc Ci sprawić, aby korzystanie z paliw stałych na Ukrainie było nie tylko bardziej opłacalne i wygodne, ale także bezpieczniejsze.",
+                "delivery": "Dostawa",
+                "deliveryDescription1": "",
+                "deliveryDescription2": "",
+                "customPacking": "Niestandardowe opakowanie",
+                "customPackagingDescription1": "",
+                "customPackagingDescription2": "",
+            },
+            pellets: {
+                "about": "Biopaliwo produkowane jest z odpadów drzewnych, dlatego cena za tonę Biopaliwa jest dość niska. Pellet produkowany jest w postaci granulatu z różnych gatunków drewna.",
+                "parameter": "Parametr",
+                "wood": "Drzewo",
+                "woodPellet": "Pellet drzewny",
+                "coal": "Węgiel",
+                "gas": "Gaz",
+                "moisture": "Wilgotność, %",
+                "density": "Gęstość nasypowa, kg/m3",
+                "calorificMjKg": "Wartość opałowa, MJ/kg",
+                "calorificKWH": "Wartość opałowa, kWh",
+
+            },
+            "contactUsPopup": "Skontaktuj się z nami",
+            "Welcome": "Witamy w Ecofuel Plus",
+            contacts: {
+                "CompanyFullName": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ EKOFUEL PLUS",
+                "CompanyName": "ECOFUEL PLUS LLC",
+                "CompanyCode": "Kod USREOU",
+                "Location": "Obwód wołyński, rejon łucki, wieś Szepel",
+                "Phone": "Telefon",
+                "QualityCertificate": "Certyfikat jakości pelletu"
+            },
+            AboutSection: {
+                "Title": "ECOFUEL PLUS",
+                "Paragraph1": "ECOFUEL PLUS to ukraińska firma produkująca pellet, której celem jest dostarczanie przyjaznych dla środowiska rozwiązań energetycznych. Specjalizujemy się w produkcji wysokiej jakości pelletu drzewnego, który może być wykorzystany jako odnawialne i czyste źródło energii.",
+                "Paragraph2": "Nasze granulaty wykonane są z najlepszych, naturalnych materiałów, bez żadnych dodatków i substancji chemicznych, co gwarantuje, że nasz produkt jest bezpieczny i zdrowy zarówno dla środowiska, jak i naszych klientów. Zależy nam na tym, aby nasz proces produkcyjny był jak najbardziej przyjazny dla środowiska w miarę możliwości skupiając się na redukcji emisji gazów cieplarnianych i minimalizacji odpadów.",
+                "Paragraph3": "W EcoFuel jesteśmy dumni z naszego zaangażowania w zrównoważone rozwiązania energetyczne. Nasze pelety drzewne są bardzo wydajne i stanowią niskoemisyjną, wysokiej jakości alternatywę dla tradycyjnych paliw kopalnych. Idealnie nadają się do stosowania w systemach grzewczych, kotłach i piecach i stanowią doskonały wybór zarówno do zastosowań mieszkaniowych, jak i komercyjnych.",
+                "Paragraph4": "Oprócz naszego zaangażowania w praktyki produkcyjne przyjazne dla środowiska, priorytetem jest dla nas także doskonała obsługa klienta. Wierzymy, że nasi klienci są naszymi partnerami w tworzeniu zrównoważonej przyszłości i jesteśmy zaangażowani w dostarczanie im najlepszych produktów i usług.",
+                "Paragraph5": "W ECOFUEL PLUS jesteśmy zaangażowani w tworzenie czystszej i bardziej zrównoważonej przyszłości dla naszej planety. Zapraszamy Cię do przyłączenia się do naszego zaangażowania w rozwiązania w zakresie czystej energii i ekologicznego stylu życia.",
+            },
+            "copyright": "ECOFUEL PLUS. Wszelkie prawa zastrzeżone."
+        }
+    },
     ru: {
         translation: {
             "menu": {
@@ -135,7 +191,7 @@ const resources = {
                 "storageDescription1": "Каждый, кто использует твердое топливо в Украине, сталкивается с известными проблемами: сезонные колебания цен, нехватка пространства для хранения, риск ухудшения качества пеллет из-за влаги, а также затраты времени и усилий на организацию хранения. К сожалению, дополнительной актуальной угрозой является риск потери пеллет из-за военных действий, включая попадание ракет или снарядов, пожары и другие непредсказуемые обстоятельства.",
                 "storageDescription2": "Но у нас есть решение! Наша услуга хранения пеллет не только решает указанные выше вопросы, позволяя вам экономить до 1000 грн на тонне, освобождать пространство и защищать топливо от влаги, но и минимизирует риск потери пеллет из-за военных действий. Мы уделяем максимум внимания безопасности нашего хранения, включая меры по защите от пожаров и других чрезвычайных ситуаций, что позволяет гарантировать сохранение вашего топлива в самых безопасных условиях.",
                 "storageDescription3": "Свяжитесь с нами, чтобы узнать больше о нашей услуге и как мы можем помочь вам сделать использование твердого топлива в Украине не только более выгодным и удобным, но и более безопасным.",
-                "delivery": "Delivery",
+                "delivery": "Доставка",
                 "deliveryDescription1": "",
                 "deliveryDescription2": "",
                 "customPacking": "Custom Packing",
