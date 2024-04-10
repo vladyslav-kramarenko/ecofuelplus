@@ -5,7 +5,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const resources = {
     en: {
         translation: {
-            "menu": {
+            menu: {
                 'home': "Home",
                 'about': "About Us",
                 'fuelcomparison': "Fuel Comparison",
@@ -18,9 +18,11 @@ const resources = {
                 "storageDescription1": "Everyone who uses solid fuel in Ukraine faces well-known problems: seasonal price fluctuations, lack of storage space, the risk of deterioration of pellet quality due to moisture, as well as time and effort spent on organizing storage. Unfortunately, an additional current threat is the risk of pellet loss due to military operations, including missile or projectile hits, fires, and other unforeseen circumstances.",
                 "storageDescription2": "But we have a solution! Our pellet storage service not only solves the above issues, allowing you to save up to UAH 1,000 per ton, free up space and protect fuel from moisture, but also minimizes the risk of pellet loss due to military operations. We pay maximum attention to the security of our storage, including measures to protect against fire and other emergency situations, which allows us to guarantee the preservation of your fuel in the safest conditions.",
                 "storageDescription3": "Contact us to learn more about our service and how we can help you make the use of solid fuel in Ukraine not only more profitable and convenient, but also safer.",
-                "delivery": "Delivery",
-                "deliveryDescription1": "",
-                "deliveryDescription2": "",
+                "delivery": "Your Delivery, Our Priority",
+                "deliveryDescription1": "At Ecofuel Plus, we understand the importance of getting your biofuel safely and promptly to your location. Our production facilities are strategically located in the Volyn region, placing us in an ideal position to serve both wholesale and retail clients across Ukraine and beyond.",
+                "deliveryDescription2": "To ensure transparency and satisfaction, we encourage our clients to consult with our dedicated managers. This allows us to calculate the delivery cost based on the mileage and provide you with the most accurate and favorable quote. Remember, our focus is not on profiting from delivery services. Instead, we aim to offer rapid and economical transportation options that align with your requirements.",
+                "deliveryDescription3": "We understand that delivering our product to your doorstep is more than a service — it's a solution to your biofuel needs. By choosing Ecofuel Plus, you're opting for a partner dedicated to providing you with the best products, complemented by delivery services that bring convenience and efficiency straight to your home or business.",
+                "deliveryDescription4": "Let us take care of the logistics while you enjoy the warmth and sustainability of our eco-friendly pellets. Contact us today to arrange your delivery and join us in our commitment to a greener, cleaner future.",
                 "customPacking": "Custom Packing",
                 "customPackagingDescription1": "",
                 "customPackagingDescription2": "",
@@ -43,7 +45,7 @@ const resources = {
             // Other keys and translations...
 
             //     contacts
-            "contacts": {
+            contacts: {
                 "CompanyFullName": "LIMITED LIABILITY COMPANY ECOFUEL PLUS",
                 "CompanyName": "LLC ECOFUEL PLUS",
                 "CompanyCode": "EDRPOU code",
@@ -51,7 +53,7 @@ const resources = {
                 "Phone": "Phone",
                 "QualityCertificate": "Pellets Certificate of Quality"
             },
-            "AboutSection": {
+            AboutSection: {
                 "Title": "Ecofuel Plus",
                 "Paragraph1": "Ecofuel Plus is a Ukrainian pellet company that aims to provide environmentally friendly energy solutions. We specialize in the production of high-quality wood pellets that can be used as a renewable and clean energy source.",
                 "Paragraph2": "Our wood pellets are made from the best natural materials, without any additives or chemicals, which ensures that our product is safe and healthy for both the environment and our customers. We strive to ensure that our manufacturing process was as environmentally friendly as possible, focusing on reducing carbon emissions and minimizing waste.",
@@ -64,7 +66,7 @@ const resources = {
     },
     ua: {
         translation: {
-            "menu": {
+            menu: {
                 'home': "Головна",
                 'about': "Про нас",
                 'fuelcomparison': "Порівняння палива",
@@ -77,9 +79,11 @@ const resources = {
                 "storageDescription1": "Кожен, хто використовує тверде паливо в Україні, стикається з відомими проблемами: сезонне коливання цін, нестача простору для зберігання, ризик погіршення якості пелет через вологу, а також витрати часу та зусиль на організацію зберігання. На жаль, додатковою актуальною загрозою є ризик втрати пелет через воєнні дії, включаючи попадання ракет або снарядів, пожежі та інші непередбачувані обставини.",
                 "storageDescription2": "Але у нас є рішення! Наша послуга зберігання пелет не тільки вирішує зазначені вище питання, дозволяючи вам економити до 1000 грн на тонні, звільняти простір та захищати паливо від вологи, але й мінімізує ризик втрати пелет через воєнні дії. Ми приділяємо максимум уваги безпеці нашого зберігання, включаючи заходи щодо захисту від пожеж та інших надзвичайних ситуацій, що дозволяє нам гарантувати збереження вашого палива в найбезпечніших умовах.",
                 "storageDescription3": "Зв'яжіться з нами, щоб дізнатися більше про нашу послугу та як ми можемо допомогти вам зробити використання твердого палива в Україні не тільки вигіднішим і зручнішим, але й безпечнішим.",
-                "delivery": "Доставка",
-                "deliveryDescription1": "",
-                "deliveryDescription2": "",
+                "delivery": "Ваша доставка – наш пріоритет",
+                "deliveryDescription1": "У ЕКОФЬЮЕЛ ПЛЮС ми розуміємо важливість безпечної та швидкої доставки вашого біопалива до вас. Наші виробничі потужності стратегічно розташовані у Волинській області, що робить нас ідеальними для обслуговування як оптових, так і роздрібних клієнтів по всій Україні і за її межами.",
+                "deliveryDescription2": "Щоб забезпечити прозорість і задоволення, ми заохочуємо наших клієнтів консультуватися з нашими менеджерами. Це дає нам змогу розрахувати вартість доставки на основі відстані та надати вам найкращу пропозицію. Пам'ятайте, нага мета - не прибуток від доставки, натомість ми прагнемо запропонувати швидкі та економічні варіанти транспортування, які відповідають вашим вимогам.",
+                "deliveryDescription3": "Ми розуміємо, що доставка нашого продукту до вашого порога — це більше, ніж послуга — це вирішення ваших потреб у біопаливі. Обираючи ЕКОФЬЮЕЛ ПЛЮС, ви обираєте партнера, який доставить вам найкращі продукти у зручний для вас спосіб прямо до вашого дому або бізнесу.",
+                "deliveryDescription4": "Дозвольте нам подбати про логістику, поки ви насолоджуєтеся теплом і довговічністю наших екологічно чистих гранул. Зв'яжіться з нами сьогодні, щоб домовитися про доставку та приєднатися до нашого прагнення до екологічнішого та чистішого майбутнього.",
                 "customPacking": "Custom Packing",
                 "customPackagingDescription1": "",
                 "customPackagingDescription2": "",
@@ -101,7 +105,7 @@ const resources = {
             "Welcome": "Ласкаво просимо до Екофьюел Плюс",
             // Other keys and translations...
             //     contacts
-            "contacts": {
+            contacts: {
                 "CompanyFullName": "ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ ЕКОФЬЮЕЛ ПЛЮС",
                 "CompanyName": "ТОВ ЕКОФЬЮЕЛ ПЛЮС",
                 "CompanyCode": "Код ЄДРПОУ",
@@ -109,7 +113,7 @@ const resources = {
                 "Phone": "Телефон",
                 "QualityCertificate": "Сертифікат якості пелет",
             },
-            "AboutSection": {
+            AboutSection: {
                 "Title": "ЕКОФЬЮЕЛ ПЛЮС",
                 "Paragraph1": "Екофьюел Плюс - це українська компанія з виробництва пелет, яка націлена на надання екологічно чистих енергетичних рішень. Ми спеціалізуємося на виробництві високоякісних деревних пелет, які можна використовувати як відновлюване та чисте джерело енергії.",
                 "Paragraph2": "Наші деревні гранули виготовляються з найкращих натуральних матеріалів, без будь-яких добавок або хімікатів, що гарантує, що наш продукт безпечний і здоровий як для навколишнього середовища, так і для наших клієнтів. Ми прагнемо забезпечити, щоб наш виробничий процес був максимально екологічним, зосереджуючись на зменшенні викидів вуглецю та мінімізації відходів.",
@@ -191,9 +195,11 @@ const resources = {
                 "storageDescription1": "Каждый, кто использует твердое топливо в Украине, сталкивается с известными проблемами: сезонные колебания цен, нехватка пространства для хранения, риск ухудшения качества пеллет из-за влаги, а также затраты времени и усилий на организацию хранения. К сожалению, дополнительной актуальной угрозой является риск потери пеллет из-за военных действий, включая попадание ракет или снарядов, пожары и другие непредсказуемые обстоятельства.",
                 "storageDescription2": "Но у нас есть решение! Наша услуга хранения пеллет не только решает указанные выше вопросы, позволяя вам экономить до 1000 грн на тонне, освобождать пространство и защищать топливо от влаги, но и минимизирует риск потери пеллет из-за военных действий. Мы уделяем максимум внимания безопасности нашего хранения, включая меры по защите от пожаров и других чрезвычайных ситуаций, что позволяет гарантировать сохранение вашего топлива в самых безопасных условиях.",
                 "storageDescription3": "Свяжитесь с нами, чтобы узнать больше о нашей услуге и как мы можем помочь вам сделать использование твердого топлива в Украине не только более выгодным и удобным, но и более безопасным.",
-                "delivery": "Доставка",
-                "deliveryDescription1": "",
-                "deliveryDescription2": "",
+                "delivery": "Ваша доставка - наш приоритет",
+                "deliveryDescription1": "В Ecofuel Plus мы понимаем важность безопасной и быстрой доставки вашего биотоплива к вам. Наши производственные мощности стратегически расположены в Волынской области, что делает нас идеальными для обслуживания как оптовых, так и розничных клиентов по всей Украине и за рубежом.",
+                "deliveryDescription2": "Мы рекомендуем клиентам консультироваться с нашими менеджерами. Это позволяет нам рассчитать стоимость доставки на основе расстояния и предоставить вам наиболее точное и выгодное предложение. Помните, мы не стремимся получить прибыль от услуг доставки. Вместо этого - мы стремимся предложить быстрые и экономичные варианты транспортировки, соответствующие вашим требованиям.",
+                "deliveryDescription3": "Мы понимаем, что доставка нашего продукта к вашему порогу — это больше, чем услуга, это решение ваших потребностей в биотопливе. Выбирая Ecofuel Plus, вы выбираете партнера, который будет предоставлять вам лучшие продукты, которые приносят удобство и эффективность прямо вам домой или на предприятие.",
+                "deliveryDescription4": "Позвольте нам позаботиться о логистике, пока вы наслаждаетесь теплом и экологичностью наших пеллет. Свяжитесь с нами сегодня, чтобы организовать доставку и присоединяйтесь к нам в нашем стремлении к более экологичному и чистому будущему.",
                 "customPacking": "Custom Packing",
                 "customPackagingDescription1": "",
                 "customPackagingDescription2": "",

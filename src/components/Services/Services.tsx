@@ -1,8 +1,8 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
 import storageImage from '../../images/storage.jpeg';
-import deliveryImage from '../../images/ecofuel+_logo_small.jpg';
-import packagingImage from '../../images/ecofuel+_logo_small.jpg';
+import deliveryImage from '../../images/delivery1.jpeg';
+import packagingImage from '../../images/packing.jpg';
 import "./Services.css";
 
 interface ServicesSectionProps {
@@ -48,6 +48,8 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({id}) => {
             description: [
                 t('services.deliveryDescription1'),
                 t('services.deliveryDescription2'),
+                t('services.deliveryDescription3'),
+                t('services.deliveryDescription4'),
             ],
             image: deliveryImage,
         },
