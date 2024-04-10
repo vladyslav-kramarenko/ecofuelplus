@@ -57,7 +57,7 @@ footer {
 section {
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    width: 100%;
     max-width: 1200px;
     padding-top: 50px;
     padding-left: 20px;
