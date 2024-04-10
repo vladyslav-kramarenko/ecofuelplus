@@ -34,12 +34,23 @@
     margin: 0;
 }
 
+.contacts-container .map-container{
+    padding: 0;
+    margin: 0;
+}
+
 .map-container iframe {
+    padding: 0;
+    margin: 0;
     width: 100%;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
     order: 3;
+}
+
+.dark .map-container iframe{
+    filter: invert(90%);
 }
 
 .dark .contact-details{

@@ -11,11 +11,11 @@ header {
     padding: 10px;
 }
 
-body.light header {
+.light header {
     background-color: var(--background-light);
 }
 
-body.dark header {
+.dark header {
     background-color: black;
 }
 
@@ -52,16 +52,6 @@ button:hover {
 .theme-switcher label:hover {
     background-color: #df5500;
     cursor: pointer;
-}
-
-body.light {
-    background-color: #fff;
-    color: #000;
-}
-
-body.dark {
-    background-color: #121212;
-    color: #fff;
 }
 
 .theme-switcher {

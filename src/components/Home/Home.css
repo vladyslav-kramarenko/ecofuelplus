@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
     max-height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .home-section h1 {
@@ -16,9 +18,9 @@
 }
 
 .light .home-section {
-    background-image: url('../../images/pellets.jpg'); /* Adjust path as needed */
+    background-image: url('../../images/pellets.jpg');
 }
 
 .dark .home-section {
-    background-image: url('../../images/pellets_fire.jpg'); /* Adjust path as needed */
+    background-image: url('../../images/pellets_fire.jpg');
 }

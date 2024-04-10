@@ -72,11 +72,8 @@
     font-size: 14px;
 }
 .footer-bottom a{
+    transition: color 0.3s ease;
     text-decoration: none;
-}
-.dark .footer-bottom a:hover,
-.light .footer-bottom a:hover{
-    color: var(--button-hover-color);
 }
 
 .dark .footer-bottom a{
@@ -97,7 +94,7 @@
     text-decoration: none;
     font-size: 16px;
 }
-
+.footer-bottom a:hover,
 .footer-nav button:hover,
 .footer-contacts a:hover{
     color: #df5500;
