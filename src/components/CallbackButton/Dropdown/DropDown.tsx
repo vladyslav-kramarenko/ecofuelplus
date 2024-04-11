@@ -20,6 +20,10 @@ const Dropdown: React.FC = () => {
             {/*    <i className="whatsapp-icon"><span></span></i>*/}
             {/*    WhatsApp*/}
             {/*</a>*/}
+            <a className="select-item" href="https://m.me/ecofuel.plus.ua/">
+                <i className="fb-messenger-icon"><span></span></i>
+                FB Messenger
+            </a>
             <a className="select-item" href="tel:+1234567890">
                 <i className="phone-icon-black"><span></span></i>
                 +38 068 368 8623
