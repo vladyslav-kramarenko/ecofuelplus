@@ -3,6 +3,7 @@ import {useTranslation} from "react-i18next";
 import storageImage from '../../images/storage.jpeg';
 import deliveryImage from '../../images/delivery1.jpeg';
 import packagingImage from '../../images/packing.jpg';
+import reusePackageImage from '../../images/reusePackage.jpeg';
 import "./Services.css";
 
 interface ServicesSectionProps {
@@ -58,8 +59,22 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({id}) => {
             description: [
                 t('services.customPackagingDescription1'),
                 t('services.customPackagingDescription2'),
+                t('services.customPackagingDescription3'),
+                t('services.customPackagingDescription4'),
+                t('services.customPackagingDescription5'),
             ],
             image: packagingImage,
+        },
+        {
+            title: t('services.reusePacking'),
+            description: [
+                t('services.reusePackingDescription1'),
+                t('services.reusePackingDescription2'),
+                t('services.reusePackingDescription3'),
+                t('services.reusePackingDescription4'),
+                t('services.reusePackingDescription5'),
+            ],
+            image: reusePackageImage,
         },
     ];
 

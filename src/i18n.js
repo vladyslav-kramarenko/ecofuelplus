@@ -14,7 +14,7 @@ const resources = {
                 'pellets': "Pellets"
             },
             services: {
-                "storage": "Storage - Summer Prices in Winter.",
+                "storage": "Summer Prices in Winter.",
                 "storageDescription1": "Everyone who uses solid fuel in Ukraine faces well-known problems: seasonal price fluctuations, lack of storage space, the risk of deterioration of pellet quality due to moisture, as well as time and effort spent on organizing storage. Unfortunately, an additional current threat is the risk of pellet loss due to military operations, including missile or projectile hits, fires, and other unforeseen circumstances.",
                 "storageDescription2": "But we have a solution! Our pellet storage service not only solves the above issues, allowing you to save up to UAH 1,000 per ton, free up space and protect fuel from moisture, but also minimizes the risk of pellet loss due to military operations. We pay maximum attention to the security of our storage, including measures to protect against fire and other emergency situations, which allows us to guarantee the preservation of your fuel in the safest conditions.",
                 "storageDescription3": "Contact us to learn more about our service and how we can help you make the use of solid fuel in Ukraine not only more profitable and convenient, but also safer.",
@@ -23,9 +23,18 @@ const resources = {
                 "deliveryDescription2": "To ensure transparency and satisfaction, we encourage our clients to consult with our dedicated managers. This allows us to calculate the delivery cost based on the mileage and provide you with the most accurate and favorable quote. Remember, our focus is not on profiting from delivery services. Instead, we aim to offer rapid and economical transportation options that align with your requirements.",
                 "deliveryDescription3": "We understand that delivering our product to your doorstep is more than a service — it's a solution to your biofuel needs. By choosing Ecofuel Plus, you're opting for a partner dedicated to providing you with the best products, complemented by delivery services that bring convenience and efficiency straight to your home or business.",
                 "deliveryDescription4": "Let us take care of the logistics while you enjoy the warmth and sustainability of our eco-friendly pellets. Contact us today to arrange your delivery and join us in our commitment to a greener, cleaner future.",
-                "customPacking": "Custom Packing",
-                "customPackagingDescription1": "",
-                "customPackagingDescription2": "",
+                "customPacking": "Branded by You, Powered by Ecofuel",
+                "customPackagingDescription1": "Elevate your brand with our custom packaging service, where your wood pellets are packed in your very own branded packaging. This service allows you to seamlessly extend your brand's reach and maintain a cohesive identity across all your products. By using your unique packaging for our high-quality wood pellets, you reinforce brand recognition and enhance consumer trust.",
+                "customPackagingDescription2": "Key Benefits:",
+                "customPackagingDescription3": "Brand Continuity: Your brand, your design on every package, ensuring a consistent brand experience for your customers.",
+                "customPackagingDescription4": "Market Differentiation: Stand out in the marketplace with uniquely branded, eco-friendly product options.",
+                "customPackagingDescription5": "Customer Engagement: Increase brand loyalty and recognition by providing products that are visually aligned with your company's branding.",
+                "reusePacking": "Reuse and Save",
+                "reusePackingDescription1": "For our eco-conscious partners, the Reuse and Save program offers an excellent opportunity to both save on costs and reduce environmental impact. If you’ve previously ordered bulk pellets in big bag containers, you can return these containers to us for a refill. This not only cuts down on waste but also removes the cost of new packaging from your purchase, passing on those savings directly to you.",
+                "reusePackingDescription2": "Key Benefits:",
+                "reusePackingDescription3": "Cost Savings: Reusing your big bag containers decreases the overall cost of your purchases by eliminating the need for new packaging.",
+                "reusePackingDescription4": "Environmental Responsibility: Reducing packaging waste contributes to your sustainability goals and appeals to environmentally aware consumers.",
+                "reusePackingDescription5": "Simplified Logistics: By reusing packaging, you streamline your operations, reducing both logistical complexities and environmental footprints.",
             },
             pellets: {
                 "about": "In general, Biofuel is produced from the waste of woodworking production, so the price per ton of Biofuel is quite low. Pellets are produced in the form of granules, made from different types of wood.",
@@ -42,9 +51,7 @@ const resources = {
             },
             "contactUsPopup": "Contact Us",
             "Welcome": "Welcome to Ecofuel Plus",
-            // Other keys and translations...
 
-            //     contacts
             contacts: {
                 "CompanyFullName": "LIMITED LIABILITY COMPANY ECOFUEL PLUS",
                 "CompanyName": "LLC ECOFUEL PLUS",
@@ -75,7 +82,7 @@ const resources = {
                 'pellets': "Пелети"
             },
             services: {
-                "storage": "Зберігання - взимку за літніми цінами.",
+                "storage": "Взимку за Літніми Цінами.",
                 "storageDescription1": "Кожен, хто використовує тверде паливо в Україні, стикається з відомими проблемами: сезонне коливання цін, нестача простору для зберігання, ризик погіршення якості пелет через вологу, а також витрати часу та зусиль на організацію зберігання. На жаль, додатковою актуальною загрозою є ризик втрати пелет через воєнні дії, включаючи попадання ракет або снарядів, пожежі та інші непередбачувані обставини.",
                 "storageDescription2": "Але у нас є рішення! Наша послуга зберігання пелет не тільки вирішує зазначені вище питання, дозволяючи вам економити до 1000 грн на тонні, звільняти простір та захищати паливо від вологи, але й мінімізує ризик втрати пелет через воєнні дії. Ми приділяємо максимум уваги безпеці нашого зберігання, включаючи заходи щодо захисту від пожеж та інших надзвичайних ситуацій, що дозволяє нам гарантувати збереження вашого палива в найбезпечніших умовах.",
                 "storageDescription3": "Зв'яжіться з нами, щоб дізнатися більше про нашу послугу та як ми можемо допомогти вам зробити використання твердого палива в Україні не тільки вигіднішим і зручнішим, але й безпечнішим.",
@@ -84,7 +91,7 @@ const resources = {
                 "deliveryDescription2": "Щоб забезпечити прозорість і задоволення, ми заохочуємо наших клієнтів консультуватися з нашими менеджерами. Це дає нам змогу розрахувати вартість доставки на основі відстані та надати вам найкращу пропозицію. Пам'ятайте, нага мета - не прибуток від доставки, натомість ми прагнемо запропонувати швидкі та економічні варіанти транспортування, які відповідають вашим вимогам.",
                 "deliveryDescription3": "Ми розуміємо, що доставка нашого продукту до вашого порога — це більше, ніж послуга — це вирішення ваших потреб у біопаливі. Обираючи ЕКОФЬЮЕЛ ПЛЮС, ви обираєте партнера, який доставить вам найкращі продукти у зручний для вас спосіб прямо до вашого дому або бізнесу.",
                 "deliveryDescription4": "Дозвольте нам подбати про логістику, поки ви насолоджуєтеся теплом і довговічністю наших екологічно чистих гранул. Зв'яжіться з нами сьогодні, щоб домовитися про доставку та приєднатися до нашого прагнення до екологічнішого та чистішого майбутнього.",
-                "customPacking": "Custom Packing",
+                "customPacking": "Custom Packing. Branded by You, Powered by Ecofuel",
                 "customPackagingDescription1": "",
                 "customPackagingDescription2": "",
             },
@@ -103,8 +110,7 @@ const resources = {
             },
             "contactUsPopup": "Зв'яжіться з Нами",
             "Welcome": "Ласкаво просимо до Екофьюел Плюс",
-            // Other keys and translations...
-            //     contacts
+
             contacts: {
                 "CompanyFullName": "ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ ЕКОФЬЮЕЛ ПЛЮС",
                 "CompanyName": "ТОВ ЕКОФЬЮЕЛ ПЛЮС",
@@ -135,7 +141,7 @@ const resources = {
                 'pellets': "Pelety"
             },
             services: {
-                "storage": "Przechowywanie - zimą po cenach letnich.",
+                "storage": "Zimą po Cenach Letnich.",
                 "storageDescription1": "Każdy, kto korzysta z paliw stałych na Ukrainie, boryka się z dobrze znanymi problemami: sezonowymi wahaniami cen, brakiem miejsca do przechowywania, ryzykiem pogorszenia jakości pelletu na skutek wilgoci, a także czasem i wysiłkiem wymaganym do zorganizowania przechowywania.",
                 "storageDescription2": "Ale mamy rozwiązanie! Nasza usługa magazynowania pelletu nie tylko rozwiązuje powyższe problemy, pozwalając zaoszczędzić nawet 1000 UAH na tonie, zwolnić miejsce i chronić paliwo przed wilgocią. Przywiązujemy maksymalną wagę do bezpieczeństwa naszego przechowywania, uwzględniając środki ochrony przed pożarami i innymi sytuacjami awaryjnymi, co gwarantuje, że Państwa paliwo będzie przechowywane w najbezpieczniejszych warunkach.",
                 "storageDescription3": "Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach i o tym, jak możemy pomóc Ci sprawić, aby korzystanie z paliw stałych na Ukrainie było nie tylko bardziej opłacalne i wygodne, ale także bezpieczniejsze.",
@@ -191,7 +197,7 @@ const resources = {
                 'pellets': "Пеллеты"
             },
             services: {
-                "storage": "Хранение – зимой по летним ценам.",
+                "storage": "Зимой по Летним Ценам.",
                 "storageDescription1": "Каждый, кто использует твердое топливо в Украине, сталкивается с известными проблемами: сезонные колебания цен, нехватка пространства для хранения, риск ухудшения качества пеллет из-за влаги, а также затраты времени и усилий на организацию хранения. К сожалению, дополнительной актуальной угрозой является риск потери пеллет из-за военных действий, включая попадание ракет или снарядов, пожары и другие непредсказуемые обстоятельства.",
                 "storageDescription2": "Но у нас есть решение! Наша услуга хранения пеллет не только решает указанные выше вопросы, позволяя вам экономить до 1000 грн на тонне, освобождать пространство и защищать топливо от влаги, но и минимизирует риск потери пеллет из-за военных действий. Мы уделяем максимум внимания безопасности нашего хранения, включая меры по защите от пожаров и других чрезвычайных ситуаций, что позволяет гарантировать сохранение вашего топлива в самых безопасных условиях.",
                 "storageDescription3": "Свяжитесь с нами, чтобы узнать больше о нашей услуге и как мы можем помочь вам сделать использование твердого топлива в Украине не только более выгодным и удобным, но и более безопасным.",
@@ -219,8 +225,7 @@ const resources = {
             },
             "contactUsPopup": "Свяжитесь с Нами",
             "Welcome": "Добро пожаловать в Экофьюэл Плюс",
-            // Other keys and translations...
-            //     contacts
+
             "contacts": {
                 "CompanyFullName": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЕКОФЬЮЕЛ ПЛЮС",
                 "CompanyName": "ООО ЭКОФЬЮЭЛ ПЛЮС",
