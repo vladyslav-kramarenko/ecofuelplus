@@ -10,6 +10,7 @@ import CallbackButton from "./components/CallbackButton/CallbackButton";
 import FuelComparisonSection from "./components/FuelComparison/FuelComparison";
 import './App.css';
 import ServicesSection from "./components/Services/Services";
+import CertificatesSection from "./components/Certificats/Certificates";
 
 function App() {
     const [activeSection, setActiveSection] = useState('');
@@ -43,6 +44,7 @@ function App() {
                 <HomeSection id="home"/>
                 <AboutSection id="about-us"/>
                 <FuelComparisonSection id="comparison"/>
+                <CertificatesSection id="certificates"/>
                 {/*<AdvantagesSection id="advantages"/>*/}
                 <ServicesSection id="services"/>
                 <ContactsSection id="contacts"/>

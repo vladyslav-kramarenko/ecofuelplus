@@ -1,0 +1,28 @@
+.certificates-section {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery-image {
+    width: calc(100% / 3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .gallery-image {
+        width: 40%;
+    }
+}
+

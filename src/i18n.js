@@ -11,7 +11,8 @@ const resources = {
                 'fuelcomparison': "Fuel Comparison",
                 'contacts': "Contacts",
                 'services': "Services",
-                'pellets': "Pellets"
+                'pellets': "Pellets",
+                'certificates': "Certificates",
             },
             services: {
                 "storage": "Summer Prices in Winter.",
@@ -51,6 +52,11 @@ const resources = {
             "contactUsPopup": "Contact Us",
             "Welcome": "Welcome to Ecofuel Plus",
 
+            certificates: {
+                "title": "Quality Certificates",
+                "description": "Our products meet all European requirements and standards, as evidenced by quality certificates from independent laboratories. In addition, each batch of goods undergoes thorough inspection."
+            },
+
             contacts: {
                 "CompanyFullName": "LIMITED LIABILITY COMPANY ECOFUEL PLUS",
                 "CompanyName": "LLC ECOFUEL PLUS",
@@ -59,7 +65,7 @@ const resources = {
                 "Phone": "Phone",
                 "QualityCertificate": "Pellets Certificate of Quality"
             },
-            AboutSection: {
+            about: {
                 "Title": "Ecofuel Plus",
                 "Paragraph1": "Ecofuel Plus is a Ukrainian pellet company that aims to provide environmentally friendly energy solutions. We specialize in the production of high-quality wood pellets that can be used as a renewable and clean energy source.",
                 "Paragraph2": "Our wood pellets are made from the best natural materials, without any additives or chemicals, which ensures that our product is safe and healthy for both the environment and our customers. We strive to ensure that our manufacturing process was as environmentally friendly as possible, focusing on reducing carbon emissions and minimizing waste.",
@@ -78,7 +84,8 @@ const resources = {
                 'fuelcomparison': "Порівняння палива",
                 'contacts': "Контакти",
                 'services': "Послуги",
-                'pellets': "Пелети"
+                'pellets': "Пелети",
+                'certificates': "Сертифікати",
             },
             services: {
                 "storage": "Взимку за Літніми Цінами.",
@@ -112,12 +119,16 @@ const resources = {
                 "moisture": "Вологість, %",
                 "density": "Насипна щільність, кг/м3",
                 "calorificMjKg": "Калорійність, МДж/кг",
-                "calorificKWH": "Калорійність, кВТ*г",
+                "calorificKWH": "Калорійність, кВт*г",
 
             },
             "contactUsPopup": "Зв'яжіться з Нами",
             "Welcome": "Ласкаво просимо до Екофьюел Плюс",
 
+            certificates: {
+                "title": "Сертифікати якості",
+                "description": "Наша продукція відповідає всім європейським вимогам та стандартам, що підтверджується сертифікатами якості незалежних лабораторій. Окрім цього, кожна з товарних партій проходить ретельну перевірку.",
+            },
             contacts: {
                 "CompanyFullName": "ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ ЕКОФЬЮЕЛ ПЛЮС",
                 "CompanyName": "ТОВ ЕКОФЬЮЕЛ ПЛЮС",
@@ -126,7 +137,7 @@ const resources = {
                 "Phone": "Телефон",
                 "QualityCertificate": "Сертифікат якості пелет",
             },
-            AboutSection: {
+            about: {
                 "Title": "ЕКОФЬЮЕЛ ПЛЮС",
                 "Paragraph1": "Екофьюел Плюс - це українська компанія з виробництва пелет, яка націлена на надання екологічно чистих енергетичних рішень. Ми спеціалізуємося на виробництві високоякісних деревних пелет, які можна використовувати як відновлюване та чисте джерело енергії.",
                 "Paragraph2": "Наші деревні гранули виготовляються з найкращих натуральних матеріалів, без будь-яких добавок або хімікатів, що гарантує, що наш продукт безпечний і здоровий як для навколишнього середовища, так і для наших клієнтів. Ми прагнемо забезпечити, щоб наш виробничий процес був максимально екологічним, зосереджуючись на зменшенні викидів вуглецю та мінімізації відходів.",
@@ -145,7 +156,8 @@ const resources = {
                 'fuelcomparison': "Porównanie paliwa",
                 'contacts': "Kontakty",
                 'services': "Usługi",
-                'pellets': "Pelety"
+                'pellets': "Pelety",
+                'certificates': "Certyfikaty",
             },
             services: {
                 "storage": "Zimą po Cenach Letnich.",
@@ -184,6 +196,12 @@ const resources = {
             },
             "contactUsPopup": "Skontaktuj się z nami",
             "Welcome": "Witamy w Ecofuel Plus",
+
+            certificates: {
+                "title": "Certyfikaty Jakości",
+                "description": "Nasze produkty spełniają wszystkie europejskie wymagania i normy, co potwierdzają certyfikaty jakości od niezależnych laboratoriów. Ponadto każda partia towaru podlega dokładnej kontroli."
+            },
+
             contacts: {
                 "CompanyFullName": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ EKOFUEL PLUS",
                 "CompanyName": "ECOFUEL PLUS LLC",
@@ -192,7 +210,7 @@ const resources = {
                 "Phone": "Telefon",
                 "QualityCertificate": "Certyfikat jakości pelletu"
             },
-            AboutSection: {
+            about: {
                 "Title": "ECOFUEL PLUS",
                 "Paragraph1": "ECOFUEL PLUS to ukraińska firma produkująca pellet, której celem jest dostarczanie przyjaznych dla środowiska rozwiązań energetycznych. Specjalizujemy się w produkcji wysokiej jakości pelletu drzewnego, który może być wykorzystany jako odnawialne i czyste źródło energii.",
                 "Paragraph2": "Nasze granulaty wykonane są z najlepszych, naturalnych materiałów, bez żadnych dodatków i substancji chemicznych, co gwarantuje, że nasz produkt jest bezpieczny i zdrowy zarówno dla środowiska, jak i naszych klientów. Zależy nam na tym, aby nasz proces produkcyjny był jak najbardziej przyjazny dla środowiska w miarę możliwości skupiając się na redukcji emisji gazów cieplarnianych i minimalizacji odpadów.",
@@ -211,7 +229,8 @@ const resources = {
                 'fuelcomparison': "Сравнение топлива",
                 'contacts': "Контакты",
                 'services': "Услуги",
-                'pellets': "Пеллеты"
+                'pellets': "Пеллеты",
+                'certificates': "Сертификаты",
             },
             services: {
                 "storage": "Зимой по Летним Ценам.",
@@ -251,7 +270,11 @@ const resources = {
             "contactUsPopup": "Свяжитесь с Нами",
             "Welcome": "Добро пожаловать в Экофьюэл Плюс",
 
-            "contacts": {
+            certificates: {
+                "title": "Сертификаты качества",
+                "description": "Наши продукты соответствуют всем европейским требованиям и стандартам, что подтверждается сертификатами качества от независимых лабораторий. Кроме того, каждая партия товара проходит тщательную проверку."
+            },
+            contacts: {
                 "CompanyFullName": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЕКОФЬЮЕЛ ПЛЮС",
                 "CompanyName": "ООО ЭКОФЬЮЭЛ ПЛЮС",
                 "CompanyCode": "Код ЕГРПОУ",
@@ -259,7 +282,7 @@ const resources = {
                 "Phone": "Телефон",
                 "QualityCertificate": "Сертификат качества пеллет"
             },
-            "AboutSection": {
+            about: {
                 "Title": "ЭКОФЬЮЭЛ ПЛЮС",
                 "Paragraph1": "ЭКОФЬЮЭЛ ПЛЮС - это украинская компания по производству пеллет, которая нацелена на предоставление экологически чистых энергетических решений. Мы специализируемся на производстве высококачественных древесных пеллет, которые можно использовать как возобновляемый и чистый источник энергии.",
                 "Paragraph2": "Наши гранулы изготавливаются из лучших натуральных материалов, без каких-либо добавок или химикатов, что гарантирует, что наш продукт безопасен и здоров как для окружающей среды, так и для наших клиентов. Мы стремимся обеспечить, чтобы наш производственный процесс был максимально экологичен, сосредотачиваясь на уменьшении выбросов углерода и минимизации отходов.",
