@@ -22,12 +22,12 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, image }) 
 
     const { ref, inView } = useInView({
         triggerOnce: true,
-        threshold: 0.6,   // Trigger when 50% of the item is visible
+        threshold: 0.3,   // Trigger when 50% of the item is visible
     });
 
     const variants = {
         visible: { opacity: 1, x: 0, transition: { type: 'spring', duration: 1.5 } },
-        hidden: { opacity: 0, x: 300 }, // Starts from the right
+        hidden: { opacity: 0, x: 100 }, // Starts from the right
     };
 
     return (
