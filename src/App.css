@@ -37,7 +37,8 @@ footer {
     --background-dark: #121212;
     --text-color-light: #000;
     --text-color-dark: #fff;
-    --button-hover-color: #ffa500;
+    --button-hover-color: #df5500;
+    /*--button-hover-color: #ffa500;*/
 }
 
 .light, .light-theme {
