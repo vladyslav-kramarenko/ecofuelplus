@@ -89,7 +89,6 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({id}) => {
                 t('services.reusePackingDescription2'),
                 t('services.reusePackingDescription3'),
                 t('services.reusePackingDescription4'),
-                t('services.reusePackingDescription5'),
             ],
             image: reusePackageImage,
         },
