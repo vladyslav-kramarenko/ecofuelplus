@@ -17,11 +17,10 @@ const ContactsSection: React.FC<ContactsSectionProps> = ({id}) => {
                 <div className="contact-card">
                     <div className={"contact-text"}>
                         <p>{t('contacts.CompanyFullName')}</p>
-                        <p>{t('contacts.CompanyName')}</p>
+                        {/*<p>{t('contacts.CompanyName')}</p>*/}
                         <p>{t('contacts.Location')}</p>
                         <p>{t('contacts.CompanyCode')}: 45093069</p>
-                        <p>{t('contacts.Phone')}: <a href={"tel:+380683688623"}>0683688623</a></p>
-                        <a href={certificate} target="_blank" rel="noopener noreferrer">{t('contacts.QualityCertificate')}</a>
+                        <p>{t('contacts.Phone')}: <a href={"tel:+380683688623"}>(068) 368-86-23</a></p>
                     </div>
                     <div className={"contact-icon"}>
                         <img src={img} alt={"ecofuelplus logo"}/>
