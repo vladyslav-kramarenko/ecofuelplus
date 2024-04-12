@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
                            rel="noopener noreferrer"><FaTelegram/></a>
                         <a href="viber://chat/?number=%2B380683688623" target="_blank"
                            rel="noopener noreferrer"><FaViber/></a>
-                        <a href="https://maps.app.goo.gl/PFVW53j1uWbrrLGC6" target="_blank"
+                        <a href="https://maps.app.goo.gl/E5pEmviJQ2BwJYdy7" target="_blank"
                            rel="noopener noreferrer"><FaLocationDot/></a>
                     </div>
                 </div>
