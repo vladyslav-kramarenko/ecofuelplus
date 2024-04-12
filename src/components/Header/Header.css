@@ -42,11 +42,13 @@ button, .language-switcher select {
     padding: 5px 15px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.2s, color 0.2s;
+    transition: border-bottom-color 1s, transform 0.2s, color 0.5s;
 }
 
 button:hover {
     color: #df5500;
+    transform: scale(1.1);
+    border-bottom: 1px solid #df5500;
 }
 
 .theme-switcher label:hover {
