@@ -5,6 +5,8 @@ import deliveryImage from '../../images/delivery1.jpeg';
 import packagingImage from '../../images/packing.jpg';
 import reusePackageImage from '../../images/reusePackage.jpeg';
 import "./Services.css";
+import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
 
 interface ServicesSectionProps {
     id: string;
@@ -17,18 +19,33 @@ interface ServiceCardProps {
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, image }) => {
+
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.6,   // Trigger when 50% of the item is visible
+    });
+
+    const variants = {
+        visible: { opacity: 1, x: 0, transition: { type: 'spring', duration: 1.5 } },
+        hidden: { opacity: 0, x: 300 }, // Starts from the right
+    };
+
     return (
-        <div className="service-card">
+        <motion.div
+            ref={ref}
+            initial="hidden"
+            animate={inView ? 'visible' : 'hidden'}
+            variants={variants}
+            className="service-card"
+        >
             <img src={image} alt={title} className="service-image" />
-            <div className={"service-text"}>
+            <div className="service-text">
                 <h2 className="service-title">{title}</h2>
                 {description.map((paragraph, idx) => (
                     <p key={idx} className="service-description">{paragraph}</p>
                 ))}
             </div>
-            {/* Optional CTA Button */}
-            {/*<button className="service-cta">Learn More</button>*/}
-        </div>
+        </motion.div>
     );
 };
 
