@@ -27,6 +27,22 @@
     width: 100%;
 }
 
+.contact-text p a{
+    text-decoration: none;
+}
+
+.light .contact-text p a:hover,
+.dark .contact-text p a:hover{
+    color: var(--button-hover-color);
+}
+
+.dark .contact-text p a{
+    color: var(--text-color-dark);
+}
+.light .contact-text p a{
+    color: var(--text-color-light);
+}
+
 .contact-icon img {
     max-width: 200px;
     order: 2;
