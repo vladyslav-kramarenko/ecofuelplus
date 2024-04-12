@@ -23,6 +23,11 @@ header {
     width: 200px;
     margin-right: 10px;
     margin-top: 2px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+.logo-container img:hover{
+    transform: scale(1.02);
 }
 
 nav {
@@ -42,18 +47,19 @@ button, .language-switcher select {
     padding: 5px 15px;
     cursor: pointer;
     font-size: 16px;
-    transition: border-bottom-color 1s, transform 0.2s, color 0.5s;
+    transition: border-bottom-color 1s, transform 0.1s, color 0.5s;
 }
 
 button:hover {
     color: #df5500;
-    transform: scale(1.1);
+    transform: scale(1.05);
     border-bottom: 1px solid #df5500;
 }
 
 .theme-switcher label:hover {
     background-color: #df5500;
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .theme-switcher {
@@ -64,6 +70,7 @@ button:hover {
     margin-top: 5px;
 }
 
+
 .theme-switcher label {
     position: relative;
     display: inline-block;
@@ -71,7 +78,7 @@ button:hover {
     height: 20px;
     background-color: #ccc;
     border-radius: 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s,transform 0.1s, color 0.5s;
 }
 
 .theme-switcher label::after {
