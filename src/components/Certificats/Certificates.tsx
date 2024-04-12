@@ -16,8 +16,8 @@ const CertificatesSection: React.FC<CertificatsSectionProps> = ({id}) => {
     const [selectedImg, setSelectedImg] = useState('');
 
     const certificates = [
-        { id: 1, src: certificate1, alt: 'Certificate 1' },
-        { id: 2, src: certificate2, alt: 'Certificate 2' },
+        { id: 1, src: certificate1, alt: 'Eurocert Certificate EN' },
+        { id: 2, src: certificate2, alt: 'Eurocert Certificate UA' },
     ];
 
     const openModal = (imgSrc: string) => {
