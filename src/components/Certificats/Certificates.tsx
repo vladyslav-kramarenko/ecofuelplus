@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "./Certificates.css";
 import Modal from "./Modal/Modal";
 import certificate1 from "../../images/certificate.jpg"
+import certificate2 from "../../images/certificate_ua.jpg"
 import {useTranslation} from "react-i18next";
 
 interface CertificatsSectionProps {
@@ -16,7 +17,7 @@ const CertificatesSection: React.FC<CertificatsSectionProps> = ({id}) => {
 
     const certificates = [
         { id: 1, src: certificate1, alt: 'Certificate 1' },
-        // { id: 2, src: certificate2, alt: 'Certificate 2' },
+        { id: 2, src: certificate2, alt: 'Certificate 2' },
     ];
 
     const openModal = (imgSrc: string) => {
