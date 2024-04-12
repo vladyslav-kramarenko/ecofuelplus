@@ -170,5 +170,14 @@
     .footer-social {
         display: flex;
         gap: 20px;
+        margin-top: 5px;
     }
+
+    .footer-social a {
+        font-size: 30px;
+    }
+    .footer-bottom {
+        margin-top: 10px;
+    }
+
 }
