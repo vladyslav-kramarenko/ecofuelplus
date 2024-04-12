@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
     return (
         <header>
             <div className="logo-container">
-                <img src={logo} alt="EcoFuel+ Logo" className="header-logo"/>
+                <img onClick={() => scrollToSection('home')} src={logo} alt="EcoFuel+ Logo" className="header-logo"/>
             </div>
 
             {/* PC Version Menu */}
