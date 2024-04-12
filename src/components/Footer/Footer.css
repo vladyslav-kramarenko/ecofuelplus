@@ -97,7 +97,7 @@
 .footer-bottom a:hover,
 .footer-nav button:hover,
 .footer-contacts a:hover{
-    color: #df5500;
+    color: var(--button-hover-color);
 }
 
 .footer-bottom p{
