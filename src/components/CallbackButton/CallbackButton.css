@@ -8,8 +8,14 @@
     width: auto;
 }
 
+@media (max-width: 768px) {
+    .callback-button {
+        bottom: 40px;
+    }
+}
+
 .callback-button > i {
-    padding: 25px;
+    padding: 20px;
     color: #fff;
     background: #3f945d;
     font-size: 25px;
