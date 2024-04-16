@@ -22,35 +22,46 @@ const Footer: React.FC = () => {
             <div className="footer-content">
                 <img src={logo} alt="EcoFuel Plus" className="footer-logo"/>
 
-                <nav className="footer-nav">
-                    <button onClick={() => scrollToSection('home')}>{t('menu.home')}</button>
-                    {/*<button onClick={() => scrollToSection('advantages')}>{t('Pellet Advantages')}</button>*/}
-                    <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
-                    <button onClick={() => scrollToSection('comparison')}>{t('menu.pellets')}</button>
-                    <button onClick={() => scrollToSection('certificates')}>{t('menu.certificates')}</button>
-                    <button onClick={() => scrollToSection('services')}>{t('menu.services')}</button>
-                    <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
-                </nav>
+                <div className={'nav-container'}>
+                    <p className={"footer-category"}>{t('footer.navigation')}</p>
+                    <nav className="footer-nav">
+                        <div className={"subnav nav-main"}>
+                            <button onClick={() => scrollToSection('home')}>{t('menu.home')}</button>
+                            <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
+                            <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
+                        </div>
+                        <div className={"subnav nav-secondary"}>
+                            <button onClick={() => scrollToSection('comparison')}>{t('menu.pellets')}</button>
+                            <button
+                                onClick={() => scrollToSection('certificates')}>{t('menu.certificates')}</button>
+                            <button onClick={() => scrollToSection('services')}>{t('menu.services')}</button>
+                            {/*<button onClick={() => scrollToSection('advantages')}>{t('Pellet Advantages')}</button>*/}
+                        </div>
+                    </nav>
+                </div>
 
-                <div className="footer-contacts">
-                    <a href={"mailto:info@ecofuel.plus"} target={"_blank"} rel="noreferrer">info@ecofuel.plus</a>
-                    <a href={"tel:+380683688623"} target={"_blank"} rel="noreferrer">+38 068 368 8623</a>
-                    <div className="footer-social">
-                        <a href="https://www.linkedin.com/company/ecofuelplus" target="_blank"
-                           rel="noopener noreferrer"><FaLinkedin/></a>
-                        <a href="https://www.facebook.com/people/Ecofuel-Plus/61558222918532/" target="_blank"
-                           rel="noopener noreferrer"><FaFacebook/></a>
-                        <a href="https://t.me/EcoFuelplus" target="_blank"
-                           rel="noopener noreferrer"><FaTelegram/></a>
-                        <a href="viber://chat/?number=%2B380683688623" target="_blank"
-                           rel="noopener noreferrer"><FaViber/></a>
-                        <a href="https://maps.app.goo.gl/E5pEmviJQ2BwJYdy7" target="_blank"
-                           rel="noopener noreferrer"><FaLocationDot/></a>
+                <div className={'footer-contacts-container'}>
+                    <p className={"footer-category"}>{t('footer.contacts')}</p>
+                    <div className="footer-contacts">
+                        <a href={"mailto:info@ecofuel.plus"} target={"_blank"} rel="noreferrer">info@ecofuel.plus</a>
+                        <a href={"tel:+380683688623"} target={"_blank"} rel="noreferrer">+38 068 368 8623</a>
+                        <div className="footer-social">
+                            <a href="https://www.linkedin.com/company/ecofuelplus" target="_blank"
+                               rel="noopener noreferrer"><FaLinkedin/></a>
+                            <a href="https://www.facebook.com/people/Ecofuel-Plus/61558222918532/" target="_blank"
+                               rel="noopener noreferrer"><FaFacebook/></a>
+                            <a href="https://t.me/EcoFuelplus" target="_blank"
+                               rel="noopener noreferrer"><FaTelegram/></a>
+                            <a href="viber://chat/?number=%2B380683688623" target="_blank"
+                               rel="noopener noreferrer"><FaViber/></a>
+                            <a href="https://maps.app.goo.gl/E5pEmviJQ2BwJYdy7" target="_blank"
+                               rel="noopener noreferrer"><FaLocationDot/></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>© 2024 {t('copyright')}</p>
+                <p>© 2024 {t('footer.copyright')}</p>
                 <p>{'Made by'} <a href={"https://kramarenko.info/"}>{"Vladyslav Kramarenko"}</a></p>
             </div>
         </footer>
