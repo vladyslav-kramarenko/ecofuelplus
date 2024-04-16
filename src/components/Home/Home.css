@@ -18,6 +18,12 @@
     max-width: 90%;
 }
 
+.home-logo{
+    margin-top: calc(15% + 100px);
+    max-height: 60%;
+    max-width: 90%;
+}
+
 .light .home-section {
     background-image: url('../../images/pellets.jpg');
 }
