@@ -10,9 +10,9 @@ const FuelComparisonSection: React.FC<FuelComparisonSectionProps> = ({id}) => {
     const {t} = useTranslation();
 
     return (
-        <section id={id} className={"fuel-comparison-section section ${theme}"}>
-            <h1>{t("menu.pellets")}</h1>
-            <p>{t("pellets.about")}</p>
+        <div id={id} className={"fuel-comparison-section section ${theme}"}>
+            {/*<h1>{t("menu.pellets")}</h1>*/}
+            <p>{t("pellets.tableDescription")}</p>
             <div className="table-responsive">
                 <table>
                     <thead>
@@ -56,7 +56,7 @@ const FuelComparisonSection: React.FC<FuelComparisonSectionProps> = ({id}) => {
                     </tbody>
                 </table>
             </div>
-        </section>
+        </div>
     );
 };
 

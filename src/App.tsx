@@ -2,15 +2,14 @@ import React, {useState, useEffect} from 'react';
 import HomeSection from './components/Home/Home';
 import AboutSection from './components/About/About';
 import ContactsSection from './components/Contacts/Contacts';
-import ProductPhotosSection from './components/ProductPhotos/ProductPhotos'
 import {useTheme} from "./components/ThemeContext";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import CallbackButton from "./components/CallbackButton/CallbackButton";
-import FuelComparisonSection from "./components/FuelComparison/FuelComparison";
 import './App.css';
 import ServicesSection from "./components/Services/Services";
 import CertificatesSection from "./components/Certificats/Certificates";
+import PelletsSection from "./components/Pellets/Pellets";
 
 function App() {
     const [activeSection, setActiveSection] = useState('');
@@ -43,10 +42,8 @@ function App() {
             <main>
                 <HomeSection id="home"/>
                 <AboutSection id="about-us"/>
-                <FuelComparisonSection id="comparison"/>
-                <ProductPhotosSection id="products"/>
+                <PelletsSection id="pellets"/>
                 <CertificatesSection id="certificates"/>
-                {/*<AdvantagesSection id="advantages"/>*/}
                 <ServicesSection id="services"/>
                 <ContactsSection id="contacts"/>
                 <CallbackButton/>

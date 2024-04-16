@@ -6,11 +6,11 @@ import certificate2 from "../../images/certificate_ua.jpg"
 import {useTranslation} from "react-i18next";
 import { motion } from 'framer-motion';
 import {useInView} from "react-intersection-observer";
-interface CertificatsSectionProps {
+interface CertificatesSectionProps {
     id: string;
 }
 
-const CertificatesSection: React.FC<CertificatsSectionProps> = ({id}) => {
+const CertificatesSection: React.FC<CertificatesSectionProps> = ({id}) => {
 
     const {t} = useTranslation();
     const [modalOpen, setModalOpen] = useState(false);
