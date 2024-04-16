@@ -33,7 +33,7 @@ footer {
 }
 
 :root {
-    --background-light: #fff;
+    --background-light: #F5F5F5;
     --background-dark: #121212;
     --text-color-light: #000;
     --text-color-dark: #fff;
@@ -42,12 +42,12 @@ footer {
 }
 
 .light, .light-theme {
-    background-color: #F5F5F5;
+    background-color: var(--background-light);
     color: #333;
 }
 
 .dark, .dark-theme {
-    background-color: #121212;
+    background-color: var(--background-dark);
     color: #E0E0E0;
 }
 
