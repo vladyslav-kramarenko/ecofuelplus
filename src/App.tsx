@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 import CallbackButton from "./components/CallbackButton/CallbackButton";
 import './App.css';
 import ServicesSection from "./components/Services/Services";
-import CertificatesSection from "./components/Certificats/Certificates";
+import CertificatesSection from "./components/Certificates/Certificates";
 import PelletsSection from "./components/Pellets/Pellets";
 
 function App() {

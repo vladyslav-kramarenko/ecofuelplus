@@ -33,11 +33,9 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
 
             {/* PC Version Menu */}
             <nav className="desktop-nav">
-                {/*<button onClick={() => scrollToSection('home')}>{t('menu.home')}</button>*/}
                 <button onClick={() => scrollToSection('about-us')}>{t('menu.about')}</button>
-                <button onClick={() => scrollToSection('comparison')}>{t('menu.pellets')}</button>
+                <button onClick={() => scrollToSection('pellets')}>{t('menu.pellets')}</button>
                 <button onClick={() => scrollToSection('certificates')}>{t('menu.certificates')}</button>
-                {/*<button onClick={() => scrollToSection('advantages')}>Pellet Advantages</button>*/}
                 <button onClick={() => scrollToSection('services')}>{t('menu.services')}</button>
                 <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
             </nav>
@@ -73,7 +71,7 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
                         setIsMobileMenuOpen(false);
                     }}>{t('menu.about')}</button>
                     <button onClick={() => {
-                        scrollToSection('comparison');
+                        scrollToSection('pellets');
                         setIsMobileMenuOpen(false);
                     }}>{t('menu.pellets')}</button>
                     <button onClick={() => {

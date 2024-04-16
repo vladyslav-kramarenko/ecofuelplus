@@ -31,11 +31,10 @@ const Footer: React.FC = () => {
                             <button onClick={() => scrollToSection('contacts')}>{t('menu.contacts')}</button>
                         </div>
                         <div className={"subnav nav-secondary"}>
-                            <button onClick={() => scrollToSection('comparison')}>{t('menu.pellets')}</button>
+                            <button onClick={() => scrollToSection('pellets')}>{t('menu.pellets')}</button>
                             <button
                                 onClick={() => scrollToSection('certificates')}>{t('menu.certificates')}</button>
                             <button onClick={() => scrollToSection('services')}>{t('menu.services')}</button>
-                            {/*<button onClick={() => scrollToSection('advantages')}>{t('Pellet Advantages')}</button>*/}
                         </div>
                     </nav>
                 </div>
