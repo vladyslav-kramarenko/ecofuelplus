@@ -64,10 +64,10 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
             {/* Mobile Version Menu */}
             {isMobileMenuOpen && (
                 <div className="mobile-nav">
-                    {/*<button onClick={() => {*/}
-                    {/*    scrollToSection('home');*/}
-                    {/*    setIsMobileMenuOpen(false);*/}
-                    {/*}}>{t('menu.home')}</button>*/}
+                    <button onClick={() => {
+                        scrollToSection('home');
+                        setIsMobileMenuOpen(false);
+                    }}>{t('menu.home')}</button>
                     <button onClick={() => {
                         scrollToSection('about-us');
                         setIsMobileMenuOpen(false);
@@ -75,7 +75,7 @@ const Header: React.FC<HeaderProps> = ({activeSection}) => {
                     <button onClick={() => {
                         scrollToSection('comparison');
                         setIsMobileMenuOpen(false);
-                    }}>{t('menu.fuelcomparison')}</button>
+                    }}>{t('menu.pellets')}</button>
                     <button onClick={() => {
                         scrollToSection('certificates');
                         setIsMobileMenuOpen(false);
