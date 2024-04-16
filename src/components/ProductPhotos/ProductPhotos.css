@@ -10,16 +10,12 @@
     margin-top: 20px;
 }
 
-.productPhotos-section .gallery-image {
+.productPhotos-section .gallery .gallery-image {
     width: calc(100% / 4);
     height: 100%;
     cursor: pointer;
     transition: transform 0.3s ease;
     align-self: center;
-}
-
-.productPhotos-section .gallery-image:hover {
-    transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
