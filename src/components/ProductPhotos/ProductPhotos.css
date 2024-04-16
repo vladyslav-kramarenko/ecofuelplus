@@ -1,0 +1,28 @@
+.productPhotos-section {
+    text-align: center;
+}
+
+.productPhotos-section .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.productPhotos-section .gallery-image {
+    width: calc(100% / 4);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.productPhotos-section .gallery-image:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .productPhotos-section .gallery-image {
+        width: 40%;
+    }
+}
+

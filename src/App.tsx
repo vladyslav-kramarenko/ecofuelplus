@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import HomeSection from './components/Home/Home';
 import AboutSection from './components/About/About';
 import ContactsSection from './components/Contacts/Contacts';
-import AdvantagesSection from './components/PelletAdvantages';
+import ProductPhotosSection from './components/ProductPhotos/ProductPhotos'
 import {useTheme} from "./components/ThemeContext";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -44,6 +44,7 @@ function App() {
                 <HomeSection id="home"/>
                 <AboutSection id="about-us"/>
                 <FuelComparisonSection id="comparison"/>
+                <ProductPhotosSection id="products"/>
                 <CertificatesSection id="certificates"/>
                 {/*<AdvantagesSection id="advantages"/>*/}
                 <ServicesSection id="services"/>
